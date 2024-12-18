@@ -7,6 +7,10 @@ from PIL import Image  #pip install Pillow
 import requests        #pip install requests
 import time
 import os
+from dotenv import load_dotenv
+
+# Carga las variables de entorno del archivo .env
+load_dotenv()
 
 class Ventana(Frame):
 	def __init__(self, master, *args):
@@ -58,7 +62,7 @@ class Ventana(Frame):
 
 	def obtener_tiempo(self,event):
 		ciudad = self.ingresa_ciudad.get()
-		api_key = '48a3dd691689b68e49d4c40f21b447a8'
+		api_key = os.getenv('API_KEY')
 		url = f'https://api.openweathermap.org/data/2.5/weather?q={ciudad}&appid={api_key}&units=metric&lang=es'.format(ciudad)
 		try:
 			json_datos = requests.get(url).json()
