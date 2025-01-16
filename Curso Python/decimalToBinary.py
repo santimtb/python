@@ -3,9 +3,13 @@ binario = []
 while True:
     try:
         decimal = int(input("Introduce un número en el Sistema Decimal: ")) 
+        if decimal < 0:
+            raise Exception("Debes introducir un número entero positivo")
         break
     except ValueError:
         print("Debes introducir un número válido")
+    except Exception as e:
+        print(e)
 
 i=0
 
