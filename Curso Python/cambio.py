@@ -21,3 +21,4 @@ for valor in monedas:
     if precio // valor:
         print(f"Monedas de {valor}: {int(precio // valor)}")
         precio=round(precio % valor,2)
+        
