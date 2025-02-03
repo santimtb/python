@@ -37,13 +37,11 @@ def calcular_imc():
         else:
             somatotipo = "Endomorfo"
         
-        print(f"images/{somatotipo_images[somatotipo]}")
         img = Image.open(f"images/{somatotipo_images[somatotipo]}")
-        img = img.resize((150, 150), Image.LANCZOS)
+        img = img.resize((150, 200), Image.LANCZOS)
         img = ImageTk.PhotoImage(img)
         panel.config(image=img)
         panel.image = img
-        
         messagebox.showinfo("Resultado", f"IMC: {imc:.2f}\nMorfología: {morfologia}\nSomatotipo: {somatotipo}")
     except ValueError:
         messagebox.showerror("Error", "Por favor, introduce valores válidos.")
@@ -96,7 +94,7 @@ subframe_entrada.pack(anchor=tk.CENTER)
 frame_intermedio = tk.Frame(root,bg="#8472ED")
 frame_intermedio.pack(fill="x",expand="True", padx=10, pady=10)
 
-# Frame para el Sexo
+# Frame para el Sexo, necesario si luego queremos centrar los elementos
 frame_sexo = tk.Frame(frame_intermedio, bg="")
 frame_sexo.pack()
 #Creamos la Etiqueta
@@ -105,9 +103,10 @@ label_sexo.pack(side="left",padx=10,pady=10)
 # Variable para almacenar el resultado de la selección 'Sexo'
 var_sexo = tk.StringVar(value="Hombre")
 # Creación de los Radiobuttons
-tk.Radiobutton(frame_sexo, text="Hombre", variable=var_sexo, value="Hombre", bg="#8472ED", highlightbackground="#8472ED", font=("Verdana", 14, "bold"),highlightcolor="#AC72ED").pack(side="left",padx=10,pady=10)
-tk.Radiobutton(frame_sexo, text="Mujer", variable=var_sexo, value="Mujer",bg="#8472ED", highlightbackground="#8472ED", font=("Verdana", 14, "bold"),highlightcolor="#AC72ED").pack(side="left", padx=10,pady=10)   
+tk.Radiobutton(frame_sexo, text="Hombre", variable=var_sexo, value="Hombre", bg="#8472ED", highlightbackground="#8472ED", font=("Verdana", 14, "bold"),highlightcolor="#AC72ED", activebackground="#AC72ED").pack(side="left",padx=10,pady=10)
+tk.Radiobutton(frame_sexo, text="Mujer", variable=var_sexo, value="Mujer",bg="#8472ED", highlightbackground="#8472ED", font=("Verdana", 14, "bold"),highlightcolor="#AC72ED", activebackground="#AC72ED").pack(side="left", padx=10,pady=10)   
 
+# Alineamos los elementos en el Frame al centro
 frame_sexo.pack(anchor="center")
 
 # Frame para mostrar la imagen
@@ -115,14 +114,15 @@ frame_imagen = tk.Frame(root)
 frame_imagen.pack(pady=10)
 
 # Panel para mostrar la imagen
-panel = tk.Label(frame_imagen)
+panel = tk.Label(frame_imagen, bg="#117ED9")
 panel.pack()
 
 # Frame para el botón
-frame_boton = tk.Frame(root)
+frame_boton = tk.Frame(root, bg="#117ED9")
 frame_boton.pack(pady=10)
 
 # Botón para calcular el IMC
-tk.Button(frame_boton, text="Calcular IMC", command=calcular_imc).pack()
+boton_ejecutar=tk.Button(frame_boton, text="Calcular IMC", command=calcular_imc, font=("Verdana", 14, "bold"), bg="#D9B311", fg="#344859", activebackground="#ED7286", activeforeground="#363884")  
+boton_ejecutar.pack(pady=10)
 
 root.mainloop()
