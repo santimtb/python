@@ -1,0 +1,1322 @@
+[
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Doble Grado en Derecho y Econom\u00eda-UV , 177",
+        "General":12.116,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Derecho"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Doble Grado en F\u00edsica y Matem\u00e1ticas-UV , 175",
+        "General":13.539,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de F\u00edsica"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Doble Grado en Matem\u00e1ticas e Ingenier\u00eda Telem\u00e1tica - UV , 823",
+        "General":12.354,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Ciencias Matematicas"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Doble Grado en Turismo y Grado en Administraci\u00f3n y Direcci\u00f3n de Empresas- UV , 170",
+        "General":10.603,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Econom\u00eda"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Biotecnolog\u00eda por la Universitat de Val\u00e8ncia , 155",
+        "General":12.134,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Ciencias Biol\u00f3gicas"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Educaci\u00f3n Social por la Universitat de Val\u00e8ncia , 129",
+        "General":8.6,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Filosof\u00eda y Ciencias de la Educaci\u00f3n"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Filolog\u00eda Cl\u00e1sica por la Universitat de Val\u00e8ncia , 139",
+        "General":11.163,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Filolog\u00eda, Traducci\u00f3n y Comunicaci\u00f3n"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Filosof\u00eda por la Universitat de Val\u00e8ncia , 138",
+        "General":8.67,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Filosof\u00eda y Ciencias de la Educaci\u00f3n"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Matem\u00e1ticas por la Universitat de Val\u00e8ncia , 119",
+        "General":12.703,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Ciencias Matematicas"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Podolog\u00eda por la Universitat de Val\u00e8ncia , 158",
+        "General":11.28,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Enfermer\u00eda y Podolog\u00eda"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Traducci\u00f3n y Mediaci\u00f3n Interling\u00fc\u00edstica por la Universitat de Val\u00e8ncia , 159",
+        "General":9.506,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Filolog\u00eda, Traducci\u00f3n y Comunicaci\u00f3n"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Geograf\u00eda y Medio Ambiente por la Universitat de Val\u00e8ncia, 153",
+        "General":8.646,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Geograf\u00eda e Historia"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda Telem\u00e1tica por la Universitat de Val\u00e8ncia , 102",
+        "General":8.014,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Escuela T\u00e9cnica Superior de Ingenier\u00eda"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Inteligencia y Anal\u00edtica de Negocios \/ BIA por la Universitat de Val\u00e8ncia , 174",
+        "General":12.346,
+        "Deportista":8.672,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Econom\u00eda"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Lenguas Modernas y sus Literaturas por la Universitat de Val\u00e8ncia , 115",
+        "General":6.813,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Filolog\u00eda, Traducci\u00f3n y Comunicaci\u00f3n"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Maestro\/a en Educaci\u00f3n Primaria por la Universitat de Val\u00e8ncia , 148",
+        "General":10.275,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad  de Magisterio "
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Doble Grado en Comunicaci\u00f3n Audiovisual y Periodismo por la Universitat de Val\u00e8ncia-, 179",
+        "General":11.638,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Filolog\u00eda, Traducci\u00f3n y Comunicaci\u00f3n"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Doble Grado en Derecho y Criminolog\u00eda-UV , 162",
+        "General":11.846,
+        "Deportista":9.845,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Derecho"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Bioqu\u00edmica y Ciencias Biom\u00e9dicas por la Universitat de Val\u00e8ncia , 154",
+        "General":13.075,
+        "Deportista":11.835,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Ciencias Biol\u00f3gicas"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Ciencias Ambientales por la Universitat de Val\u00e8ncia , 104",
+        "General":9.319,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Ciencias Biol\u00f3gicas"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Enfermer\u00eda por la Universitat de Val\u00e8ncia , 127",
+        "General":12.383,
+        "Deportista":7.565,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Enfermer\u00eda y Podolog\u00eda"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Filolog\u00eda Catalana por la Universitat de Val\u00e8ncia , 120",
+        "General":7.252,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Filolog\u00eda, Traducci\u00f3n y Comunicaci\u00f3n"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Medicina por la Universitat de Val\u00e8ncia , 132",
+        "General":13.29,
+        "Deportista":10.037,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Medicina y Odontologia"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Finanzas y Contabilidad por la Universitat de Val\u00e8ncia, 164",
+        "General":9.46,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Econom\u00eda"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda Electr\u00f3nica Industrial por la Universitat de Val\u00e8ncia, 151",
+        "General":9.67,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Escuela T\u00e9cnica Superior de Ingenier\u00eda"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda Electr\u00f3nica de Telecomunicaci\u00f3n por la Universitat de Val\u00e8ncia , 150",
+        "General":8.528,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Escuela T\u00e9cnica Superior de Ingenier\u00eda"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Maestro\/a en Educaci\u00f3n Infantil por la Universitat de Val\u00e8ncia, 808)",
+        "General":6.535,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Centro Florida Universitaria (Privado)"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Maestro\/a en Educaci\u00f3n Primaria por la Universitat de Val\u00e8ncia , 807)",
+        "General":5.622,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Centro Florida Universitaria (Privado)"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Administraci\u00f3n y Direcci\u00f3n de Empresas por la Universitat de Val\u00e8ncia , 163)",
+        "General":8.133,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Economia (Ontinyent)"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Ciencias Gastron\u00f3micas por la Universitat de Val\u00e8ncia, 169",
+        "General":8.182,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Farmacia y Ciencias de la Alimentaci\u00f3n"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Ciencias de la Actividad F\u00edsica y del Deporte por la Universitat de Val\u00e8ncia , 168",
+        "General":10.566,
+        "Deportista":9.82,
+        "Universidad":"UV",
+        "Facultad":"F.Ciencias de la Act. F\u00edsica y del Dep. - Ontinyent"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Criminolog\u00eda por la Universitat de Val\u00e8ncia , 137",
+        "General":10.496,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Derecho"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Estudios Hisp\u00e1nicos, Lengua Espa\u00f1ola y sus Literaturas por la Universitat de Val\u00e8ncia , 128)",
+        "General":10.638,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Filolog\u00eda, Traducci\u00f3n y Comunicaci\u00f3n"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Periodismo por la Universitat de Val\u00e8ncia , 122",
+        "General":10.336,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Filolog\u00eda, Traducci\u00f3n y Comunicaci\u00f3n"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Qu\u00edmica por la Universitat de Val\u00e8ncia , 144",
+        "General":11.075,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Qu\u00edmica"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Trabajo Social por la Universitat de Val\u00e8ncia , 136",
+        "General":7.93,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Ciencias Sociales"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Maestro\/a en Educaci\u00f3n Infantil por la Universitat de Val\u00e8ncia, 147)",
+        "General":8.958,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Magisterio (Ontinyent)"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Doble Grado en Administraci\u00f3n y Direcci\u00f3n de Empresas y Derecho-UV , 167",
+        "General":12.232,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Derecho"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Doble Grado en Matem\u00e1ticas e Ingenier\u00eda Inform\u00e1tica - UV , 822 ",
+        "General":13.414,
+        "Deportista":8.233,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Ciencias Matematicas"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Ciencia de Datos por la Universitat de Val\u00e8ncia , 173",
+        "General":11.114,
+        "Deportista":7.582,
+        "Universidad":"UV",
+        "Facultad":"Escuela T\u00e9cnica Superior de Ingenier\u00eda"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Ciencias Pol\u00edticas y de la Administraci\u00f3n P\u00fablica por la Universitat de Val\u00e8ncia , 149",
+        "General":9.078,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Derecho"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Comunicaci\u00f3n Audiovisual por la Universitat de Val\u00e8ncia, 106",
+        "General":11.033,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Filolog\u00eda, Traducci\u00f3n y Comunicaci\u00f3n"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Estudios Ingleses por la Universitat de Val\u00e8ncia , 130",
+        "General":10.076,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Filolog\u00eda, Traducci\u00f3n y Comunicaci\u00f3n"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Traducci\u00f3n y Mediaci\u00f3n Interling\u00fc\u00edstica por la Universitat de Val\u00e8ncia , 160",
+        "General":12.256,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Filolog\u00eda, Traducci\u00f3n y Comunicaci\u00f3n"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Turismo por la Universitat de Val\u00e8ncia , 112",
+        "General":7.862,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Econom\u00eda"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Negocios Internacionales\\ International Business por la Universitat de Val\u00e8ncia , 124",
+        "General":12.714,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Econom\u00eda"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Fisioterapia por la Universitat de Val\u00e8ncia , 131",
+        "General":11.76,
+        "Deportista":7.125,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Fisioterapia"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Doble Grado en Farmacia y Nutrici\u00f3n Humana y Diet\u00e9tica-UV , 166",
+        "General":12.54,
+        "Deportista":11.349,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Farmacia y Ciencias de la Alimentaci\u00f3n"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Ciencias de la Actividad F\u00edsica y del Deporte por la Universitat de Val\u00e8ncia , 105",
+        "General":11.284,
+        "Deportista":8.734,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Ciencias de la Actividad F\u00edsica y del Deporte"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Econom\u00eda por la Universitat de Val\u00e8ncia , 145",
+        "General":9.906,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Econom\u00eda"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Nutrici\u00f3n Humana y Diet\u00e9tica por la Universitat de Val\u00e8ncia, 133",
+        "General":10.576,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Farmacia y Ciencias de la Alimentaci\u00f3n"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en F\u00edsica por la Universitat de Val\u00e8ncia , 134",
+        "General":13.028,
+        "Deportista":7.59,
+        "Universidad":"UV",
+        "Facultad":"Facultad de F\u00edsica"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda Qu\u00edmica por la Universitat de Val\u00e8ncia , 108",
+        "General":10.614,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Escuela T\u00e9cnica Superior de Ingenier\u00eda"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Logopedia por la Universitat de Val\u00e8ncia , 114",
+        "General":9.734,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Psicolog\u00eda y Logopedia"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Doble Grado en F\u00edsica y Qu\u00edmica-UV , 176",
+        "General":12.719,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Qu\u00edmica"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Ciencia y Tecnolog\u00eda de los Alimentos por la Universitat de Val\u00e8ncia , 156",
+        "General":9.55,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Farmacia y Ciencias de la Alimentaci\u00f3n"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Pedagog\u00eda por la Universitat de Val\u00e8ncia , 121",
+        "General":8.945,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Filosof\u00eda y Ciencias de la Educaci\u00f3n"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Relaciones Laborales y Recursos Humanos por la Universitat de Val\u00e8ncia , 135",
+        "General":8.151,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Ciencias Sociales"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Informaci\u00f3n y Documentaci\u00f3n por la Universitat de Val\u00e8ncia, 126",
+        "General":5.558,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Geograf\u00eda e Historia"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda Multimedia por la Universitat de Val\u00e8ncia , 101",
+        "General":8.95,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Escuela T\u00e9cnica Superior de Ingenier\u00eda"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Maestro\/a en Educaci\u00f3n Infantil por la Universitat de Val\u00e8ncia, 142",
+        "General":9.682,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad  de Magisterio "
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Doble Grado en Sociolog\u00eda y C.C. Pol\u00edticas y de la Administraci\u00f3n P\u00fablica-UV , 171",
+        "General":9.428,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Ciencias Sociales"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Administraci\u00f3n y Direcci\u00f3n de Empresas por la Universitat de Val\u00e8ncia , 815)",
+        "General":5.0,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Centro Universitario EDEM (Privado)"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Derecho por la Universitat de Val\u00e8ncia , 141",
+        "General":10.08,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Derecho"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Enfermer\u00eda por la Universitat de Val\u00e8ncia , 172)",
+        "General":12.018,
+        "Deportista":6.164,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Enfermer\u00eda y Podolog\u00eda (Ontinyent)"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Farmacia por la Universitat de Val\u00e8ncia , 109",
+        "General":11.85,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Farmacia y Ciencias de la Alimentaci\u00f3n"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en \u00d3ptica y Optometr\u00eda por la Universitat de Val\u00e8ncia , 146",
+        "General":10.884,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de F\u00edsica"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Sociolog\u00eda por la Universitat de Val\u00e8ncia , 107",
+        "General":7.994,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Ciencias Sociales"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Historia del Arte por la Universitat de Val\u00e8ncia , 117",
+        "General":6.584,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Geograf\u00eda e Historia"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Historia por la Universitat de Val\u00e8ncia , 116",
+        "General":7.61,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Geograf\u00eda e Historia"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda Inform\u00e1tica por la Universitat de Val\u00e8ncia , 152",
+        "General":10.308,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Escuela T\u00e9cnica Superior de Ingenier\u00eda"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Doble Grado en Derecho y Ciencias Politicas y de la Administraci\u00f3n P\u00fablica-UV , 140",
+        "General":11.914,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Derecho"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Doble Grado en Qu\u00edmica y en Ingenier\u00eda Qu\u00edmica-UV , 178",
+        "General":12.343,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Qu\u00edmica"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Administraci\u00f3n y Direcci\u00f3n de Empresas por la Universitat de Val\u00e8ncia , 157",
+        "General":10.004,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Econom\u00eda"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Administraci\u00f3n y Direcci\u00f3n de Empresas por la Universitat de Val\u00e8ncia , 805)",
+        "General":5.0,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Centro Florida Universitaria (Privado)"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Biolog\u00eda por la Universitat de Val\u00e8ncia , 103",
+        "General":11.494,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Ciencias Biol\u00f3gicas"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Traducci\u00f3n y Mediaci\u00f3n Interling\u00fc\u00edstica por la Universitat de Val\u00e8ncia , 161",
+        "General":6.15,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Filolog\u00eda, Traducci\u00f3n y Comunicaci\u00f3n"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Odontolog\u00eda por la Universitat de Val\u00e8ncia , 143",
+        "General":13.104,
+        "Deportista":9.85,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Medicina y Odontologia"
+    },
+    {
+        "Rama de estudios":null,
+        "Titulaci\u00f3n":"Grado en Psicolog\u00eda por la Universitat de Val\u00e8ncia , 123",
+        "General":10.852,
+        "Deportista":5.0,
+        "Universidad":"UV",
+        "Facultad":"Facultad de Psicolog\u00eda y Logopedia"
+    },
+    {
+        "Rama de estudios":"Artes y Humanidades",
+        "Titulaci\u00f3n":"Grado en Bellas Artes",
+        "General":10.618,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"BBAA"
+    },
+    {
+        "Rama de estudios":"Artes y Humanidades",
+        "Titulaci\u00f3n":"Grado en Conservaci\u00f3n y Restauraci\u00f3n de Bienes Culturales",
+        "General":8.733,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"BBAA"
+    },
+    {
+        "Rama de estudios":"Artes y Humanidades",
+        "Titulaci\u00f3n":"Grado en Dise\u00f1o y Tecnolog\u00edas Creativas",
+        "General":12.16,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"BBAA"
+    },
+    {
+        "Rama de estudios":"Ciencias",
+        "Titulaci\u00f3n":"Grado en Biotecnolog\u00eda",
+        "General":12.678,
+        "Deportista":8.864,
+        "Universidad":"UPV",
+        "Facultad":"ETSIAMN"
+    },
+    {
+        "Rama de estudios":"Ciencias",
+        "Titulaci\u00f3n":"Grado en Ciencia y Tecnolog\u00eda de los Alimentos",
+        "General":9.908,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIAMN"
+    },
+    {
+        "Rama de estudios":"Ciencias",
+        "Titulaci\u00f3n":"Grado en Ciencias Ambientales",
+        "General":8.662,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSG"
+    },
+    {
+        "Rama de estudios":"Ciencias",
+        "Titulaci\u00f3n":"Doble grado en Administraci\u00f3n y Direcci\u00f3n de Empresas + Ciencia y  Tecnolog\u00eda de los Alimentos",
+        "General":10.749,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"\/ETSIAMN"
+    },
+    {
+        "Rama de estudios":"Ciencias",
+        "Titulaci\u00f3n":"Doble grado en Biotecnolog\u00eda + Ingenier\u00eda Agroalimentaria y del Medio Rural",
+        "General":12.47,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIAMN\/ETSIAMN"
+    },
+    {
+        "Rama de estudios":"Ciencias",
+        "Titulaci\u00f3n":"Doble grado en Ingenier\u00eda Agroalimentaria y del Medio Rural + Ciencia y  Tecnolog\u00eda de los Alimentos",
+        "General":10.853,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIAMN\/ETSIAMN"
+    },
+    {
+        "Rama de estudios":"Ciencias",
+        "Titulaci\u00f3n":"Doble grado en Ingenier\u00eda Forestal y del Medio Natural + Ciencias  Ambientales",
+        "General":10.474,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSG\/ETSIAMN"
+    },
+    {
+        "Rama de estudios":"Ciencias",
+        "Titulaci\u00f3n":"Doble grado en Ingenier\u00eda Forestal y del Medio Natural + Ciencias  Ambientales Gandia",
+        "General":6.508,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSG\/ETSIAMN"
+    },
+    {
+        "Rama de estudios":"Ciencias",
+        "Titulaci\u00f3n":"Doble grado en Matem\u00e1ticas + Administraci\u00f3n y Direcci\u00f3n de Empresas",
+        "General":13.303,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ADE\/ETSIT"
+    },
+    {
+        "Rama de estudios":"Ciencias",
+        "Titulaci\u00f3n":"Doble grado en Matem\u00e1ticas + Ingenier\u00eda Civil",
+        "General":12.572,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSICCP\/ETSIT"
+    },
+    {
+        "Rama de estudios":"Ciencias",
+        "Titulaci\u00f3n":"Doble grado en Matem\u00e1ticas + Ingenier\u00eda Inform\u00e1tica",
+        "General":13.62,
+        "Deportista":12.15,
+        "Universidad":"UPV",
+        "Facultad":"ETSINF\/ETSIT"
+    },
+    {
+        "Rama de estudios":"Ciencias",
+        "Titulaci\u00f3n":"Doble grado en Matem\u00e1ticas + Ingenier\u00eda de Tecnolog\u00edas y Servicios de  Telecomunicaci\u00f3n",
+        "General":13.167,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIT\/ETSIT"
+    },
+    {
+        "Rama de estudios":"Ciencias Sociales y Jur\u00eddicas",
+        "Titulaci\u00f3n":"Grado en Administraci\u00f3n y Direcci\u00f3n de Empresas",
+        "General":11.588,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ADE"
+    },
+    {
+        "Rama de estudios":"Ciencias Sociales y Jur\u00eddicas",
+        "Titulaci\u00f3n":"Grado en Administraci\u00f3n y Direcci\u00f3n de Empresas",
+        "General":6.6,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSA"
+    },
+    {
+        "Rama de estudios":"Ciencias Sociales y Jur\u00eddicas",
+        "Titulaci\u00f3n":"Grado en Comunicaci\u00f3n Audiovisual",
+        "General":10.39,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSG"
+    },
+    {
+        "Rama de estudios":"Ciencias Sociales y Jur\u00eddicas",
+        "Titulaci\u00f3n":"Grado en Gesti\u00f3n y Administraci\u00f3n P\u00fablica",
+        "General":8.452,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ADE"
+    },
+    {
+        "Rama de estudios":"Ciencias Sociales y Jur\u00eddicas",
+        "Titulaci\u00f3n":"Grado en Gesti\u00f3n del Transporte y la Log\u00edstica",
+        "General":10.442,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSICCP"
+    },
+    {
+        "Rama de estudios":"Ciencias Sociales y Jur\u00eddicas",
+        "Titulaci\u00f3n":"Grado en Turismo",
+        "General":5.0,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSG"
+    },
+    {
+        "Rama de estudios":"Ciencias Sociales y Jur\u00eddicas",
+        "Titulaci\u00f3n":"Doble grado en Administraci\u00f3n y Direcci\u00f3n de Empresas + Ciencia y  Tecnolog\u00eda de los Alimentos",
+        "General":10.749,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"\/ETSIAMN"
+    },
+    {
+        "Rama de estudios":"Ciencias Sociales y Jur\u00eddicas",
+        "Titulaci\u00f3n":"Doble grado en Administraci\u00f3n y Direcci\u00f3n de Empresas + Ingenier\u00eda  Inform\u00e1tica",
+        "General":12.149,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ADE\/ETSINF"
+    },
+    {
+        "Rama de estudios":"Ciencias Sociales y Jur\u00eddicas",
+        "Titulaci\u00f3n":"Doble grado en Administraci\u00f3n y Direcci\u00f3n de Empresas + Ingenier\u00eda  Inform\u00e1tica",
+        "General":10.364,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"\/EPSA"
+    },
+    {
+        "Rama de estudios":"Ciencias Sociales y Jur\u00eddicas",
+        "Titulaci\u00f3n":"Doble grado en Administraci\u00f3n y Direcci\u00f3n de Empresas + Ingenier\u00eda de  Tecnolog\u00edas y Servicios de Telecomunicaci\u00f3n",
+        "General":10.948,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ADE\/ETSIT"
+    },
+    {
+        "Rama de estudios":"Ciencias Sociales y Jur\u00eddicas",
+        "Titulaci\u00f3n":"Doble grado en Administraci\u00f3n y Direcci\u00f3n de Empresas + Turismo  Alcoy",
+        "General":5.0,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSA\/EPSG"
+    },
+    {
+        "Rama de estudios":"Ciencias Sociales y Jur\u00eddicas",
+        "Titulaci\u00f3n":"Doble grado en Administraci\u00f3n y Direcci\u00f3n de Empresas + Turismo  Gandia",
+        "General":8.538,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSA\/EPSG"
+    },
+    {
+        "Rama de estudios":"Ciencias Sociales y Jur\u00eddicas",
+        "Titulaci\u00f3n":"Doble grado en Ingenier\u00eda de Sistemas de Telecomunicaci\u00f3n, Sonido e Imagen  + Comunicaci\u00f3n Audiovisual",
+        "General":11.007,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSG\/EPSG"
+    },
+    {
+        "Rama de estudios":"Ciencias Sociales y Jur\u00eddicas",
+        "Titulaci\u00f3n":"Doble grado en Matem\u00e1ticas + Administraci\u00f3n y Direcci\u00f3n de Empresas",
+        "General":13.303,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ADE\/ETSIT"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Agroalimentaria y Forestal",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda Agroalimentaria y del Medio Rural",
+        "General":8.448,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIAMN"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Agroalimentaria y Forestal",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda Forestal y del Medio Natural",
+        "General":7.68,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIAMN"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Agroalimentaria y Forestal",
+        "Titulaci\u00f3n":"Doble grado en Biotecnolog\u00eda + Ingenier\u00eda Agroalimentaria y del Medio Rural",
+        "General":12.47,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIAMN\/ETSIAMN"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Agroalimentaria y Forestal",
+        "Titulaci\u00f3n":"Doble grado en Ingenier\u00eda Agroalimentaria y del Medio Rural + Ciencia y  Tecnolog\u00eda de los Alimentos",
+        "General":10.853,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIAMN\/ETSIAMN"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Agroalimentaria y Forestal",
+        "Titulaci\u00f3n":"Doble grado en Ingenier\u00eda Forestal y del Medio Natural + Ciencias  Ambientales",
+        "General":10.474,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSG\/ETSIAMN"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Agroalimentaria y Forestal",
+        "Titulaci\u00f3n":"Doble grado en Ingenier\u00eda Forestal y del Medio Natural + Ciencias  Ambientales Gandia",
+        "General":6.508,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSG\/ETSIAMN"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Agroalimentaria y Forestal",
+        "Titulaci\u00f3n":"PARS en Ingenier\u00eda Agron\u00f3mica (v\u00eda Grado en Ingenier\u00eda Agroalimentaria y  del Medio Rural)",
+        "General":10.43,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIAMN"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Agroalimentaria y Forestal",
+        "Titulaci\u00f3n":"PARS en Ingenier\u00eda de Montes (v\u00eda Grado en Ingenier\u00eda Forestal y del Medio  Natural)",
+        "General":7.312,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIAMN"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Arquitectura, Ingenier\u00eda Civil y Edificaci\u00f3n",
+        "Titulaci\u00f3n":"Doble Grado en Matem\u00e1ticas + Ingenier\u00eda en Geom\u00e1tica y Topograf\u00eda",
+        "General":11.386,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"\/ETSIT"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Arquitectura, Ingenier\u00eda Civil y Edificaci\u00f3n",
+        "Titulaci\u00f3n":"Grado en Arquitectura T\u00e9cnica",
+        "General":8.438,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIE"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Arquitectura, Ingenier\u00eda Civil y Edificaci\u00f3n",
+        "Titulaci\u00f3n":"Grado en Dise\u00f1o Arquitect\u00f3nico de Interiores",
+        "General":9.57,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSA"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Arquitectura, Ingenier\u00eda Civil y Edificaci\u00f3n",
+        "Titulaci\u00f3n":"Grado en Fundamentos de la Arquitectura",
+        "General":10.648,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSA"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Arquitectura, Ingenier\u00eda Civil y Edificaci\u00f3n",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda Civil",
+        "General":10.224,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSICCP"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Arquitectura, Ingenier\u00eda Civil y Edificaci\u00f3n",
+        "Titulaci\u00f3n":"Doble grado en Matem\u00e1ticas + Ingenier\u00eda Civil",
+        "General":12.572,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSICCP\/ETSIT"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Arquitectura, Ingenier\u00eda Civil y Edificaci\u00f3n",
+        "Titulaci\u00f3n":"PARS en Arquitectura",
+        "General":11.04,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSA"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Arquitectura, Ingenier\u00eda Civil y Edificaci\u00f3n",
+        "Titulaci\u00f3n":"PARS en Edificaci\u00f3n",
+        "General":9.234,
+        "Deportista":6.61,
+        "Universidad":"UPV",
+        "Facultad":"ETSIE"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Arquitectura, Ingenier\u00eda Civil y Edificaci\u00f3n",
+        "Titulaci\u00f3n":"PARS en Ingenier\u00eda de Caminos, Canales y Puertos (v\u00eda Grado en Ingenier\u00eda  Civil)",
+        "General":11.763,
+        "Deportista":7.102,
+        "Universidad":"UPV",
+        "Facultad":"ETSICCP"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Ciencia y Tecnolog\u00eda para la Salud",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda Biom\u00e9dica",
+        "General":12.886,
+        "Deportista":11.078,
+        "Universidad":"UPV",
+        "Facultad":"ETSII"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Industrial y Aeron\u00e1utica",
+        "Titulaci\u00f3n":"Ingenier\u00eda y Arquitectura. Industrial y Aeron\u00e1utica",
+        "General":null,
+        "Deportista":null,
+        "Universidad":"UPV",
+        "Facultad":"Desconocida"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Industrial y Aeron\u00e1utica",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda Aeroespacial",
+        "General":13.331,
+        "Deportista":11.73,
+        "Universidad":"UPV",
+        "Facultad":"ETSIADI"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Industrial y Aeron\u00e1utica",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda en Dise\u00f1o Industrial y Desarrollo de Productos",
+        "General":11.508,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIADI"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Industrial y Aeron\u00e1utica",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda en Dise\u00f1o Industrial y Desarrollo de Productos",
+        "General":9.195,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSA"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Industrial y Aeron\u00e1utica",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda El\u00e9ctrica",
+        "General":10.496,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIADI"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Industrial y Aeron\u00e1utica",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda El\u00e9ctrica",
+        "General":7.13,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSA"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Industrial y Aeron\u00e1utica",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda Electr\u00f3nica Industrial y Autom\u00e1tica",
+        "General":10.674,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIADI"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Industrial y Aeron\u00e1utica",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda de la Energ\u00eda",
+        "General":11.158,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSII"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Industrial y Aeron\u00e1utica",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda Mec\u00e1nica",
+        "General":12.31,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIADI"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Industrial y Aeron\u00e1utica",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda Mec\u00e1nica",
+        "General":9.575,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSA"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Industrial y Aeron\u00e1utica",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda de Organizaci\u00f3n Industrial",
+        "General":11.646,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSII"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Industrial y Aeron\u00e1utica",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda Qu\u00edmica",
+        "General":11.308,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSII"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Industrial y Aeron\u00e1utica",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda Qu\u00edmica",
+        "General":9.119,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSA"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Industrial y Aeron\u00e1utica",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda en Tecnolog\u00edas Industriales",
+        "General":11.396,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSII"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Industrial y Aeron\u00e1utica",
+        "Titulaci\u00f3n":"PARS en Ingenier\u00eda Aeron\u00e1utica",
+        "General":13.335,
+        "Deportista":11.774,
+        "Universidad":"UPV",
+        "Facultad":"v\u00eda Grado en Ingenier\u00eda Aeroespacial"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Industrial y Aeron\u00e1utica",
+        "Titulaci\u00f3n":"PARS en Ingenier\u00eda Industrial (v\u00eda Grado en Ingenier\u00eda de Tecnolog\u00edas  Industriales)",
+        "General":12.07,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSII"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Industrial y Aeron\u00e1utica",
+        "Titulaci\u00f3n":"PARS en Ingenier\u00eda Qu\u00edmica",
+        "General":11.69,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSII"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"Grado en Ciencia de Datos",
+        "General":11.881,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSINF"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"Grado en Inform\u00e1tica Industrial y Rob\u00f3tica",
+        "General":10.573,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSINF"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"Grado en Inform\u00e1tica Industrial y Rob\u00f3tica",
+        "General":7.341,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSA"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda F\u00edsica",
+        "General":12.582,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIT"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda en Geom\u00e1tica y Topograf\u00eda",
+        "General":6.336,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIGCT"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda Inform\u00e1tica",
+        "General":10.528,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSINF"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda Inform\u00e1tica",
+        "General":8.888,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSA"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda de Sistemas de Telecomunicaci\u00f3n, Sonido e Imagen",
+        "General":7.088,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSG"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"Grado en Ingenier\u00eda de Tecnolog\u00edas y Servicios de Telecomunicaci\u00f3n",
+        "General":9.572,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIT"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"Grado en Tecnolog\u00eda Digital y Multimedia",
+        "General":9.547,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIT"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"Grado en Tecnolog\u00edas Interactivas",
+        "General":6.38,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSG"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"Doble grado en Administraci\u00f3n y Direcci\u00f3n de Empresas + Ingenier\u00eda  Inform\u00e1tica",
+        "General":12.149,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ADE\/ETSINF"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"Doble grado en Administraci\u00f3n y Direcci\u00f3n de Empresas + Ingenier\u00eda  Inform\u00e1tica",
+        "General":10.364,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"\/EPSA"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"Doble grado en Administraci\u00f3n y Direcci\u00f3n de Empresas + Ingenier\u00eda de  Tecnolog\u00edas y Servicios de Telecomunicaci\u00f3n",
+        "General":10.948,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ADE\/ETSIT"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"Doble grado en Ciencia de Datos + Ingenier\u00eda de Organizaci\u00f3n Industrial",
+        "General":13.37,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSII\/ETSINF"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"Doble grado en Ingenier\u00eda de Sistemas de Telecomunicaci\u00f3n, Sonido e Imagen  + Comunicaci\u00f3n Audiovisual",
+        "General":11.007,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"EPSG\/EPSG"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"Doble grado en Matem\u00e1ticas + Ingenier\u00eda Inform\u00e1tica",
+        "General":13.62,
+        "Deportista":12.15,
+        "Universidad":"UPV",
+        "Facultad":"ETSINF\/ETSIT"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"Doble grado en Matem\u00e1ticas + Ingenier\u00eda de Tecnolog\u00edas y Servicios de  Telecomunicaci\u00f3n",
+        "General":13.167,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIT\/ETSIT"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"PARS en Ingenier\u00eda de Telecomunicaci\u00f3n (v\u00eda Grado en Ingenier\u00eda de Sistemas  de Telecomunicaci\u00f3n, Sonido e Imagen)",
+        "General":7.48,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"Gand\u00eda-Vera"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"PARS en Ingenier\u00eda de Telecomunicaci\u00f3n (v\u00eda Grado en Ingenier\u00eda de  Tecnolog\u00edas y Servicios de Telecomunicaci\u00f3n)",
+        "General":11.854,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIT"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"PARS en Ingenier\u00eda en Geom\u00e1tica y Geoinformaci\u00f3n (v\u00eda Grado en Ingenier\u00eda  en Geom\u00e1tica y Topograf\u00eda)",
+        "General":7.282,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSIGCT"
+    },
+    {
+        "Rama de estudios":"Ingenier\u00eda y Arquitectura. Tecnolog\u00edas de la Informaci\u00f3n y las  Comunicaciones",
+        "Titulaci\u00f3n":"PARS en Ingenier\u00eda Inform\u00e1tica",
+        "General":11.604,
+        "Deportista":5.0,
+        "Universidad":"UPV",
+        "Facultad":"ETSINF"
+    }
+]
