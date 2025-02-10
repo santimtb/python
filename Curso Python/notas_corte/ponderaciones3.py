@@ -12,25 +12,29 @@ def extraer_ponderaciones(pdf_path):
     """
 
     try:
-        # Leer el PDF y extraer las tablas
-        tables = camelot.read_pdf(pdf_path, pages='1-2')  # Lee las páginas 1 y 2
+        # Leer el PDF y extraer las tablas de todas las páginas
+        tables = camelot.read_pdf(pdf_path, pages='all')  # Lee todas las páginas
 
-        # Como camelot puede detectar varias tablas, elegimos la que contiene la información
-        # Esto puede variar dependiendo del PDF, ajusta el índice si es necesario
-        df = tables[0].df  
+        # Crear un DataFrame vacío para combinar todas las tablas
+        combined_df = pd.DataFrame()
+
+        # Iterar sobre las tablas y combinarlas
+        for table in tables:
+            df = table.df
+            combined_df = pd.concat([combined_df, df], ignore_index=True)
 
         # Limpiar el DataFrame: eliminar filas y columnas vacías
-        df = df.dropna(how='all')
-        df = df.dropna(axis=1, how='all')
+        combined_df = combined_df.dropna(how='all')
+        combined_df = combined_df.dropna(axis=1, how='all')
 
         # Obtener la lista de asignaturas (primera fila)
-        asignaturas = df.iloc[0, 1:].tolist()
+        asignaturas = combined_df.iloc[0, 1:].tolist()
 
         # Crear el diccionario de ponderaciones
         ponderaciones = {}
 
         # Iterar sobre las filas (empezando desde la segunda)
-        for _, row in df.iloc[1:].iterrows():
+        for _, row in combined_df.iloc[1:].iterrows():
             titulo_universidad = row[0]
 
             # Separar titulación y universidades usando expresiones regulares
