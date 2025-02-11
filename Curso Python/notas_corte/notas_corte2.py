@@ -31,6 +31,7 @@ class App:
         self.root = root
         self.root.title("Buscador de Notas de Corte")
         self.root.geometry("800x500")
+        self.root.config(bg="#374369")
 
         # Crear una lista de titulaciones, universidades y facultades para el autocompletado
         titulaciones = [item['Titulación'] for item in data]
@@ -39,12 +40,12 @@ class App:
 
         # Entry con autocompletado y marcador de posición
         #Creamos un Frame contenedor
-        self.frame_titulacion = tk.Frame(root, bg="lightblue")
+        self.frame_titulacion = tk.Frame(root, bg="#374369")
         self.frame_titulacion.pack(fill="x",expand=True,padx=10,pady=10)
         # Frame para centrar los widgets
-        self.frame_titulacion_widgets=tk.Frame(self.frame_titulacion, bg="lightblue")
+        self.frame_titulacion_widgets=tk.Frame(self.frame_titulacion, bg="#374369")
         self.frame_titulacion_widgets.pack()
-        self.label_titulacion = tk.Label(self.frame_titulacion_widgets, text="Buscar Titulación:", bg="lightblue")
+        self.label_titulacion = tk.Label(self.frame_titulacion_widgets, text="Titulación:", font=("Verdana",14,"bold"), bg="#374369", fg="#E83707")
         self.label_titulacion.pack(side="left",padx=10,pady=10)
         self.entry_titulacion = AutocompleteEntryWithPlaceholder(self.frame_titulacion_widgets, completevalues=titulaciones, placeholder="Buscar Titulación", width=50)
         self.entry_titulacion.pack(side="left",padx=10,pady=10)
@@ -52,10 +53,10 @@ class App:
 
         # Filtro por universidad y facultad
         # Creamos un Frame contenedor 
-        self.frame_filtros = tk.Frame(root, bg="lightblue")
+        self.frame_filtros = tk.Frame(root, bg="#374369")
         self.frame_filtros.pack(fill="x",expand=True,padx=10,pady=5)
         # Frame para centrar los widgets
-        self.frame_filtros_widgets=tk.Frame(self.frame_filtros, bg="lightblue")
+        self.frame_filtros_widgets=tk.Frame(self.frame_filtros, bg="#374369")
         self.frame_filtros_widgets.pack()
         # Combobox para universidades
         self.combo_universidad = ttk.Combobox(self.frame_filtros_widgets, values=universidades)
@@ -76,12 +77,27 @@ class App:
         self.index_map = {}
 
         # Etiqueta para mostrar la nota de corte general
-        self.label_general = tk.Label(root, text="")
+        self.label_general = tk.Label(root, text="", bg="#374369")
         self.label_general.pack(pady=5)
-
+        
+        # Crear un estilo personalizado
+        style = ttk.Style()
+        style.configure("Custom.TCheckbutton", 
+            background="#374369",
+            foreground="white",
+            font=("Arial", 12, "bold"),
+            borderwidth=2,
+            relief="raised",
+            padding=6
+        )
+        # Cambiar el color cuando el botón está seleccionado
+        style.map("Custom.TCheckbutton",
+            background=[("selected", "#374369"), ("active", "#374369")],  
+            foreground=[("selected", "#F5D767"), ("active", "#F567F0"),("disabled", "gray")],  # Color cuando está deshabilitado
+        )
         # Checkbutton para mostrar la nota de deportista de élite
         self.show_deportista_var = tk.BooleanVar()
-        self.check_deportista = ttk.Checkbutton(root, text="Mostrar Nota Deportista", variable=self.show_deportista_var, command=self.update_details)
+        self.check_deportista = ttk.Checkbutton(root, text="Mostrar Nota Deportista", variable=self.show_deportista_var, command=self.update_details, style="Custom.TCheckbutton")
         self.check_deportista.pack(pady=5)
 
         # Etiqueta para mostrar la nota de deportista de élite
