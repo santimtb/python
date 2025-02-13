@@ -30,7 +30,7 @@ class App:
     def __init__(self, root):
         self.root = root
         self.root.title("Buscador de Notas de Corte")
-        self.root.geometry("800x500")
+        self.root.geometry("800x600")
         self.root.config(bg="#374369")
 
         # Crear una lista de titulaciones, universidades y facultades para el autocompletado
@@ -45,7 +45,7 @@ class App:
         # Frame para centrar los widgets
         self.frame_titulacion_widgets=tk.Frame(self.frame_titulacion, bg="#374369")
         self.frame_titulacion_widgets.pack()
-        self.label_titulacion = tk.Label(self.frame_titulacion_widgets, text="Titulación:", font=("Verdana",14,"bold"), bg="#374369", fg="#E83707")
+        self.label_titulacion = tk.Label(self.frame_titulacion_widgets, text="Titulación:", font=("Verdana",14,"bold"), bg="#374369", fg="#FFE49C")
         self.label_titulacion.pack(side="left",padx=10,pady=10)
         self.entry_titulacion = AutocompleteEntryWithPlaceholder(self.frame_titulacion_widgets, completevalues=titulaciones, placeholder="Buscar Titulación", width=50)
         self.entry_titulacion.pack(side="left",padx=10,pady=10)
@@ -77,7 +77,7 @@ class App:
         self.index_map = {}
 
         # Etiqueta para mostrar la nota de corte general
-        self.label_general = tk.Label(root, text="", bg="#374369")
+        self.label_general = tk.Label(root, text="", bg="#374369", fg="#B5E8BB", font=("Arial",16,"bold"))
         self.label_general.pack(pady=5)
         
         # Crear un estilo personalizado
@@ -101,7 +101,7 @@ class App:
         self.check_deportista.pack(pady=5)
 
         # Etiqueta para mostrar la nota de deportista de élite
-        self.label_deportista = tk.Label(root, text="")
+        self.label_deportista = tk.Label(root, text="", bg="#374369", fg="#F567F0", font=("Arial",16,"bold"))
         self.label_deportista.pack(pady=5)
 
         # Botón para resetear filtros
