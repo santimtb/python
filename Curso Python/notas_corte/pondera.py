@@ -170,6 +170,7 @@ for col in columns:
     tree.heading(col, text=col)
 tree.pack(padx=10, pady=10, fill="both", expand=True)
 
+
 # Actualizar los valores de los comboboxes al iniciar la aplicación
 update_comboboxes()
 
