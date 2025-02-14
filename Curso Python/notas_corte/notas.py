@@ -22,6 +22,16 @@ def resultado_ebau():
     print("Media Fase General:", media_fase_general)
     nau=media_bachillerato*0.6+media_fase_general*0.4
     print("Nota de Acceso a la Universidad:", nau)
+    ponderadas = []
+    if float(notas[-1]) >= 5:
+        ponderadas.append(float(notas[-1]) * ponderacion_troncal.get())    
+    if float(entry_optativa1.get()) >= 5:
+        ponderadas.append(float(entry_optativa1.get()) * ponderacion1.get())
+    if float(entry_optativa2.get()) >= 5:
+        ponderadas.append(float(entry_optativa2.get()) * ponderacion2.get())    
+    ponderadas = sorted(ponderadas, reverse=True)
+    nat=nau+sum(ponderadas[:2])
+    print("Nota de Acceso a la Titulación:", nat)
     
     
 # Función para obtener todas las notas
