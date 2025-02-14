@@ -8,6 +8,13 @@ import customtkinter as ctk
 #def on_focus_out(entry):
     #entry.configure(fg_color="white")  # Restaura el border del Entry que pierde el foco
 
+def valida_notas()
+    try:
+        bachi=float(entry_bachiller.get())
+        if 0 < bachi > 10:
+            raise ValueError("La nota media de Bachiller debe estra entre 0 y 10")
+    except ValueError as e:
+        
 def resultado_ebau():
     media_bachillerato = float(entry_bachiller.get())
     notas = obtener_notas_fase_general()
