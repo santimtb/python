@@ -1,0 +1,2186 @@
+{
+    "Administración y Direccción Empresas": {
+        "universities": [
+            "UA",
+            "UJI",
+            "UMH",
+            "UPV",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.1,
+            "Ciencias Generales": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Arquitectura Técnica": {
+        "universities": [
+            "UA",
+            "UJI",
+            "UPV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Geografía": 0.1,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Bellas Artes": {
+        "universities": [
+            "UMH",
+            "UPV"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.2,
+            "Dibujo Artístico II": 0.2,
+            "Dibujo Técnico Aplicado a las Artes Plástica": 0.1,
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.1,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Movimientos Culturales y Artísticos": 0.2,
+            "Técnicas de Expresión Gráfico-plástica": 0.2
+        }
+    },
+    "Biología": {
+        "universities": [
+            "UA",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Ciencias Generales": 0.1,
+            "Física": 0.2,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "": {
+        "universities": [],
+        "subjects": {
+            "Biología": 0.2,
+            "Física": 0.2,
+            "Geología y Ciencias Ambientales": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Bioquímica y Ciencias Biomédicas": {
+        "universities": [
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Física": 0.2,
+            "Geología y Ciencias Ambientales": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Biotecnología": {
+        "universities": [
+            "UMH",
+            "UPV",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Física": 0.2,
+            "Geología y Ciencias Ambientales": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.1
+        }
+    },
+    "Business Intelligence and Analytics / Inteligencia y Analítica de Negocios": {
+        "universities": [
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.1,
+            "Ciencias Generales": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ciencia de Datos": {
+        "universities": [
+            "UPV",
+            "UV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.1
+        }
+    },
+    "Ciencia de Datos e Inteligencia Artificial": {
+        "universities": [
+            "UMH"
+        ],
+        "subjects": {
+            "Biología": 0.1,
+            "Ciencias Generales": 0.1,
+            "Física": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ciencia y Tecnologia de los Alimentos": {
+        "universities": [
+            "UMH",
+            "UPV",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Ciencias Generales": 0.2,
+            "Dibujo Técnico II": 0.1,
+            "Física": 0.2,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.1
+        }
+    },
+    "Ciencias Ambientales": {
+        "universities": [
+            "UMH",
+            "UPV",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Ciencias Generales": 0.2,
+            "Dibujo Técnico II": 0.1,
+            "Física": 0.2,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Ciencias de la Actividad Física y del Deporte": {
+        "universities": [
+            "UA",
+            "UJI",
+            "UMH",
+            "UV"
+        ],
+        "subjects": {
+            "Análisis Musical II": 0.1,
+            "Artes  Escénicas II": 0.2,
+            "Biología": 0.2,
+            "Ciencias Generales": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.1,
+            "Historia del Arte": 0.1,
+            "Historia de la Música y la Danza": 0.1,
+            "Latín II": 0.1,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Ciencias del Mar": {
+        "universities": [
+            "UA"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Ciencias Generales": 0.2,
+            "Física": 0.2,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Ciencias Gastronómicas": {
+        "universities": [
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Ciencias Generales": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Ciencias Políticas y de la Administración Pública": {
+        "universities": [
+            "UV"
+        ],
+        "subjects": {
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.1,
+            "Historia de España": 0.2,
+            "Historia de la Filosofía": 0.2,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.1
+        }
+    },
+    "Ciencias Políticas y Gestión Pública": {
+        "universities": [
+            "UMH"
+        ],
+        "subjects": {
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.1,
+            "Historia de España": 0.2,
+            "Historia de la Filosofía": 0.2,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.1
+        }
+    },
+    "Comunicación Audiovisual": {
+        "universities": [
+            "UJI",
+            "UMH",
+            "UPV",
+            "UV"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.2,
+            "Biología": 0.1,
+            "Dibujo Técnico Aplicado a las Artes Plástica": 0.2,
+            "Dibujo Técnico II": 0.1,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.1,
+            "Griego II": 0.1,
+            "Historia del Arte": 0.2,
+            "Inglés, Alemán, Francés e Italiano": 0.2,
+            "Latín II": 0.2,
+            "Lengua castellana y Literaura II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.1,
+            "Química": 0.1,
+            "Técnicas de Expresión Gráfico-plástica": 0.2,
+            "Valencià: Llengua i Literatura II": 0.2
+        }
+    },
+    "Comunicación y Relaciones Públicas": {
+        "universities": [
+            "UMH"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.2,
+            "Ciencias Generales": 0.2,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.1,
+            "Historia del Arte": 0.2,
+            "Inglés, Alemán, Francés e Italiano": 0.2,
+            "Latín II": 0.2,
+            "Lengua castellana y Literaura II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.2,
+            "Valencià: Llengua i Literatura II": 0.2
+        }
+    },
+    "Conservación y Restauración Bienes Culturales": {
+        "universities": [
+            "UPV"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.1,
+            "Dibujo Artístico II": 0.2,
+            "Dibujo Técnico Aplicado a las Artes Plástica": 0.1,
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.1,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Movimientos Culturales y Artísticos": 0.1,
+            "Técnicas de Expresión Gráfico-plástica": 0.2
+        }
+    },
+    "Criminología": {
+        "universities": [
+            "UA",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Ciencias Generales": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.1,
+            "Historia del Arte": 0.1,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1
+        }
+    },
+    "Criminología y Seguridad": {
+        "universities": [
+            "UJI"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Ciencias Generales": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.1,
+            "Historia del Arte": 0.1,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1
+        }
+    },
+    "Derecho": {
+        "universities": [
+            "UA",
+            "UJI",
+            "UMH",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.1,
+            "Historia del Arte": 0.1,
+            "Historia de España": 0.2,
+            "Historia de la Filosofía": 0.2,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.1,
+            "Química": 0.1
+        }
+    },
+    "Digital Business": {
+        "universities": [
+            "UMH"
+        ],
+        "subjects": {
+            "Biología": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.1,
+            "Griego II": 0.1,
+            "Historia del Arte": 0.1,
+            "Latín II": 0.1,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1
+        }
+    },
+    "Diseño Arquitectónico de Interiores": {
+        "universities": [
+            "UPV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Geografía": 0.1,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.1
+        }
+    },
+    "Diseño y Desarrollo de Videojuegos": {
+        "universities": [
+            "UJI"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.1
+        }
+    },
+    "Diseño y Tecnologías Creativas": {
+        "universities": [
+            "UPV"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.2,
+            "Dibujo Artístico II": 0.2,
+            "Dibujo Técnico Aplicado a las Artes Plástica": 0.2,
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.1,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Matemáticas II": 0.1,
+            "Movimientos Culturales y Artísticos": 0.1,
+            "Técnicas de Expresión Gráfico-plástica": 0.1
+        }
+    },
+    "Economía": {
+        "universities": [
+            "UA",
+            "UJI",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.1,
+            "Ciencias Generales": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Educación Social": {
+        "universities": [
+            "UV"
+        ],
+        "subjects": {
+            "Análisis Musical II": 0.2,
+            "Artes  Escénicas II": 0.2,
+            "Biología": 0.2,
+            "Ciencias Generales": 0.2,
+            "Coro y Técnica Vocal II": 0.2,
+            "Dibujo Artístico II": 0.2,
+            "Dibujo Técnico Aplicado a las Artes Plástica": 0.2,
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Historia de la Filosofía": 0.2,
+            "Historia de la Música y la Danza": 0.2,
+            "Latín II": 0.2,
+            "Literatura Dramática": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.2,
+            "Química": 0.2,
+            "Técnicas de Expresión Gráfico-plástica": 0.2,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Enfermería": {
+        "universities": [
+            "UA",
+            "UJI",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Física": 0.1,
+            "Matemáticas II": 0.1,
+            "Química": 0.2
+        }
+    },
+    "Español: Lengua y Literaturas": {
+        "universities": [
+            "UA"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Inglés, Alemán, Francés e Italiano": 0.2,
+            "Latín II": 0.2,
+            "Lengua castellana y Literaura II": 0.2,
+            "Literatura Dramática": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Movimientos Culturales y Artísticos": 0.1,
+            "Valencià: Llengua i Literatura II": 0.2
+        }
+    },
+    "Estadística Empresarial": {
+        "universities": [
+            "UMH"
+        ],
+        "subjects": {
+            "Biología": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.1,
+            "Historia del Arte": 0.1,
+            "Latín II": 0.1,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Estudios Árabes e Islámicos": {
+        "universities": [
+            "UA"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Fundamentos Artísticos": 0.1,
+            "Geografía": 0.1,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Inglés, Alemán, Francés e Italiano": 0.2,
+            "Latín II": 0.2,
+            "Lengua castellana y Literaura II": 0.2,
+            "Literatura Dramática": 0.1,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Movimientos Culturales y Artísticos": 0.1,
+            "Valencià: Llengua i Literatura II": 0.2
+        }
+    },
+    "Estudios Franceses": {
+        "universities": [
+            "UA"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.1,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Inglés, Alemán, Francés e Italiano": 0.2,
+            "Latín II": 0.2,
+            "Lengua castellana y Literaura II": 0.2,
+            "Literatura Dramática": 0.1,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Movimientos Culturales y Artísticos": 0.1,
+            "Valencià: Llengua i Literatura II": 0.2
+        }
+    },
+    "Estudios Hispánicos": {
+        "universities": [
+            "UV"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Inglés, Alemán, Francés e Italiano": 0.2,
+            "Latín II": 0.2,
+            "Lengua castellana y Literaura II": 0.2,
+            "Literatura Dramática": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Movimientos Culturales y Artísticos": 0.1,
+            "Valencià: Llengua i Literatura II": 0.2
+        }
+    },
+    "Estudios Ingleses": {
+        "universities": [
+            "UA",
+            "UJI",
+            "UV"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Inglés, Alemán, Francés e Italiano": 0.2,
+            "Latín II": 0.2,
+            "Lengua castellana y Literaura II": 0.2,
+            "Literatura Dramática": 0.1,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Movimientos Culturales y Artísticos": 0.1,
+            "Valencià: Llengua i Literatura II": 0.2
+        }
+    },
+    "Farmacia": {
+        "universities": [
+            "UMH",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Física": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Filología Catalana": {
+        "universities": [
+            "UA",
+            "UV"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.1,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Inglés, Alemán, Francés e Italiano": 0.2,
+            "Latín II": 0.2,
+            "Lengua castellana y Literaura II": 0.2,
+            "Literatura Dramática": 0.1,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Movimientos Culturales y Artísticos": 0.1,
+            "Valencià: Llengua i Literatura II": 0.2
+        }
+    },
+    "Filología Clásica": {
+        "universities": [
+            "UV"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Historia de la Filosofía": 0.2,
+            "Inglés, Alemán, Francés e Italiano": 0.2,
+            "Latín II": 0.2,
+            "Lengua castellana y Literaura II": 0.2,
+            "Literatura Dramática": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Movimientos Culturales y Artísticos": 0.1,
+            "Valencià: Llengua i Literatura II": 0.2
+        }
+    },
+    "Filosofía": {
+        "universities": [
+            "UV"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Historia de la Filosofía": 0.2,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.2
+        }
+    },
+    "Finanzas y Contabilidad": {
+        "universities": [
+            "UJI",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.1,
+            "Ciencias Generales": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Física": {
+        "universities": [
+            "UA",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.1,
+            "Dibujo Técnico II": 0.1,
+            "Física": 0.2,
+            "Geología y Ciencias Ambientales": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Fisioterapia": {
+        "universities": [
+            "UMH",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Fundamentos de la Arquitectura": {
+        "universities": [
+            "UA",
+            "UPV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Geografía": 0.1,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.1
+        }
+    },
+    "Gastronomía y Artes Culinarias": {
+        "universities": [
+            "UA"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Ciencias Generales": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Geografía y Medio Ambiente": {
+        "universities": [
+            "UV"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.1,
+            "Biología": 0.1,
+            "Dibujo Técnico II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Fundamentos Artísticos": 0.1,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Historia de España": 0.1,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.1
+        }
+    },
+    "Geografía y Ordenación del Territorio": {
+        "universities": [
+            "UA"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.1,
+            "Biología": 0.1,
+            "Dibujo Técnico II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Fundamentos Artísticos": 0.1,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Historia de España": 0.1,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.1
+        }
+    },
+    "Geología": {
+        "universities": [
+            "UA"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Ciencias Generales": 0.1,
+            "Dibujo Técnico II": 0.1,
+            "Física": 0.2,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Gestión Comercial y Márqueting": {
+        "universities": [
+            "UMH"
+        ],
+        "subjects": {
+            "Biología": 0.1,
+            "Ciencias Generales": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Gestión, Tecnología y Moda": {
+        "universities": [
+            "UMH"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.2,
+            "Biología": 0.1,
+            "Ciencias Generales": 0.2,
+            "Dibujo Artístico II": 0.2,
+            "Dibujo Técnico Aplicado a las Artes Plástica": 0.2,
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.1,
+            "Griego II": 0.1,
+            "Historia del Arte": 0.1,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.2,
+            "Química": 0.1,
+            "Técnicas de Expresión Gráfico-plástica": 0.2,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Gestión del Transporte y la Logística": {
+        "universities": [
+            "UPV"
+        ],
+        "subjects": {
+            "Biología": 0.1,
+            "Dibujo Técnico II": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.1,
+            "Griego II": 0.1,
+            "Historia del Arte": 0.1,
+            "Latín II": 0.1,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1
+        }
+    },
+    "Gestión y Administración Pública": {
+        "universities": [
+            "UA",
+            "UJI",
+            "UPV"
+        ],
+        "subjects": {
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.1,
+            "Historia de España": 0.1,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.1
+        }
+    },
+    "Historia": {
+        "universities": [
+            "UA",
+            "UV"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Historia de España": 0.2,
+            "Historia de la Filosofía": 0.2,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Movimientos Culturales y Artísticos": 0.1
+        }
+    },
+    "Historia del Arte": {
+        "universities": [
+            "UV"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.1,
+            "Dibujo Técnico II": 0.1,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Historia de España": 0.2,
+            "Historia de la Filosofía": 0.2,
+            "Historia de la Música y la Danza": 0.2,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Movimientos Culturales y Artísticos": 0.2
+        }
+    },
+    "Historia y Patrimonio": {
+        "universities": [
+            "UJI"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Historia de España": 0.2,
+            "Historia de la Filosofía": 0.2,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.1
+        }
+    },
+    "Humanidades": {
+        "universities": [
+            "UA",
+            "UJI"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Historia de España": 0.2,
+            "Historia de la Filosofía": 0.2,
+            "Historia de la Música y la Danza": 0.1,
+            "Latín II": 0.2,
+            "Lengua castellana y Literaura II": 0.2,
+            "Literatura Dramática": 0.1,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.2,
+            "Valencià: Llengua i Literatura II": 0.2
+        }
+    },
+    "Información y Documentación": {
+        "universities": [
+            "UV"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.1,
+            "Ciencias Generales": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.1,
+            "Fundamentos Artísticos": 0.1,
+            "Geografía": 0.2,
+            "Griego II": 0.2,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.1,
+            "Movimientos Culturales y Artísticos": 0.1
+        }
+    },
+    "Informática Industrial y Robótica": {
+        "universities": [
+            "UPV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería Aeroespacial": {
+        "universities": [
+            "UPV",
+            "UA"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Geología y Ciencias Ambientales": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería Agroalimentaria y Agroambiental": {
+        "universities": [
+            "UMH"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Geografía": 0.1,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.1
+        }
+    },
+    "Ingenierìa Agroalimentaria y del Medio Rural": {
+        "universities": [
+            "UPV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Geografía": 0.1,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.1
+        }
+    },
+    "Ingeniería Biomédica": {
+        "universities": [
+            "UA",
+            "UPV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.1
+        }
+    },
+    "Ingeniería Civil": {
+        "universities": [
+            "UA",
+            "UPV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Física": 0.2,
+            "Geología y Ciencias Ambientales": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería de la Energía": {
+        "universities": [
+            "UPV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Geografía": 0.1,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.1
+        }
+    },
+    "Ingeniería de Organización Industrial": {
+        "universities": [
+            "UPV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.1
+        }
+    },
+    "Ingenierìa de Sistemas de Telecomunicaciones, Sonido e Imagen": {
+        "universities": [
+            "UPV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería de Tecnología, Diseño y Moda Textil": {
+        "universities": [
+            "UPV"
+        ],
+        "subjects": {
+            "Biología": 0.1,
+            "Dibujo Técnico Aplicado a las Artes Plástica": 0.2,
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería de Tecnologías de Telecomunicación": {
+        "universities": [
+            "UMH"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería en Diseño Industrial y Desarrollo de Productos": {
+        "universities": [
+            "UJI",
+            "UPV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería Eléctrica": {
+        "universities": [
+            "UJI",
+            "UMH",
+            "UPV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería Electrónica de Telecomunicación": {
+        "universities": [
+            "UV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería Electrónica Industrial": {
+        "universities": [
+            "UV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería Electrónica Industrial y Automática": {
+        "universities": [
+            "UPV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería Electrónica y Automática Industrial": {
+        "universities": [
+            "UMH"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería en Inteligencia Artificial": {
+        "universities": [
+            "UA"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería en Sonido e Imagen en Telecomunicación": {
+        "universities": [
+            "UA"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería en Tecnologías Industriales": {
+        "universities": [
+            "UJI",
+            "UPV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Geología y Ciencias Ambientales": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería Física": {
+        "universities": [
+            "UPV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.1
+        }
+    },
+    "Ingeniería Forestal y del Medio Natural": {
+        "universities": [
+            "UPV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Geografía": 0.1,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.1
+        }
+    },
+    "Ingeniería Geomática y Topografía": {
+        "universities": [
+            "UPV"
+        ],
+        "subjects": {
+            "Biología": 0.1,
+            "Dibujo Técnico II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Geografía": 0.1,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.1
+        }
+    },
+    "Ingeniería Informática": {
+        "universities": [
+            "UA",
+            "UJI",
+            "UPV",
+            "UV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Preinscripción 2025\n \n(al curso 2025-2026)": {
+        "universities": [],
+        "subjects": {}
+    },
+    "Ingeniería Informática en Tecnologías de la Información": {
+        "universities": [
+            "UMH"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería Mecánica": {
+        "universities": [
+            "UJI",
+            "UMH",
+            "UPV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería Multimedia": {
+        "universities": [
+            "UA",
+            "UV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería Química": {
+        "universities": [
+            "UA",
+            "UJI",
+            "UPV",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.1,
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Geología y Ciencias Ambientales": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.1
+        }
+    },
+    "Ingeniería Robótica": {
+        "universities": [
+            "UA"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería Tecnologías y Servicios Telecomunicaciones": {
+        "universities": [
+            "UPV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería Telemática": {
+        "universities": [
+            "UV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Ingeniería y Gestión Empresarial": {
+        "universities": [
+            "UPV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.1
+        }
+    },
+    "Inteligencia Robótica": {
+        "universities": [
+            "UJI"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "International Business / Negocios Internacionales": {
+        "universities": [
+            "UMH",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.1,
+            "Ciencias Generales": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "International Business Economics / Estudios Internacionales de Economía y Empresa": {
+        "universities": [
+            "UJI"
+        ],
+        "subjects": {
+            "Biología": 0.1,
+            "Ciencias Generales": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Lenguas Modernas y sus Literaturas": {
+        "universities": [
+            "UV"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.1,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Inglés, Alemán, Francés e Italiano": 0.2,
+            "Latín II": 0.2,
+            "Lengua castellana y Literaura II": 0.2,
+            "Literatura Dramática": 0.1,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Movimientos Culturales y Artísticos": 0.1,
+            "Valencià: Llengua i Literatura II": 0.2
+        }
+    },
+    "Logopedia": {
+        "universities": [
+            "UV",
+            "UA"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Física": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Maestro/a en Educación Infantil": {
+        "universities": [
+            "UA",
+            "UJI",
+            "UV"
+        ],
+        "subjects": {
+            "Análisis Musical II": 0.2,
+            "Artes  Escénicas II": 0.2,
+            "Biología": 0.2,
+            "Ciencias Generales": 0.2,
+            "Coro y Técnica Vocal II": 0.2,
+            "Dibujo Artístico II": 0.2,
+            "Dibujo Técnico Aplicado a las Artes Plástica": 0.2,
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Historia de España": 0.2,
+            "Historia de la Filosofía": 0.2,
+            "Historia de la Música y la Danza": 0.2,
+            "Inglés, Alemán, Francés e Italiano": 0.2,
+            "Latín II": 0.2,
+            "Lengua castellana y Literaura II": 0.2,
+            "Literatura Dramática": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.2,
+            "Química": 0.2,
+            "Técnicas de Expresión Gráfico-plástica": 0.2,
+            "Tecnología e Ingeniería II": 0.2,
+            "Valencià: Llengua i Literatura II": 0.2
+        }
+    },
+    "Maestro/a en Educación Primaria": {
+        "universities": [
+            "UA",
+            "UJI",
+            "UV"
+        ],
+        "subjects": {
+            "Análisis Musical II": 0.2,
+            "Artes  Escénicas II": 0.2,
+            "Biología": 0.2,
+            "Ciencias Generales": 0.2,
+            "Coro y Técnica Vocal II": 0.2,
+            "Dibujo Artístico II": 0.2,
+            "Dibujo Técnico Aplicado a las Artes Plástica": 0.2,
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Historia de España": 0.2,
+            "Historia de la Filosofía": 0.2,
+            "Historia de la Música y la Danza": 0.2,
+            "Inglés, Alemán, Francés e Italiano": 0.2,
+            "Latín II": 0.2,
+            "Lengua castellana y Literaura II": 0.2,
+            "Literatura Dramática": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.2,
+            "Química": 0.2,
+            "Técnicas de Expresión Gráfico-plástica": 0.2,
+            "Tecnología e Ingeniería II": 0.2,
+            "Valencià: Llengua i Literatura II": 0.2
+        }
+    },
+    "Márketing": {
+        "universities": [
+            "UA UJI"
+        ],
+        "subjects": {
+            "Biología": 0.1,
+            "Ciencias Generales": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Matemática Computacional": {
+        "universities": [
+            "UJI"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2,
+            "Tecnología e Ingeniería II": 0.1
+        }
+    },
+    "Matemáticas": {
+        "universities": [
+            "UA",
+            "UPV",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.1,
+            "Ciencias Generales": 0.1,
+            "Dibujo Técnico II": 0.1,
+            "Física": 0.2,
+            "Geología y Ciencias Ambientales": 0.1,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.1
+        }
+    },
+    "Medicina": {
+        "universities": [
+            "UA",
+            "UJI",
+            "UMH",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Nutrición Humana y Dietética": {
+        "universities": [
+            "UA",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Odontología": {
+        "universities": [
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Óptica y Optometría": {
+        "universities": [
+            "UA",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Física": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Organización Eventos, Protocolo y Relaciones Institucionales": {
+        "universities": [
+            "UMH"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.2,
+            "Ciencias Generales": 0.2,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.1,
+            "Historia del Arte": 0.2,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.2
+        }
+    },
+    "Pedagogía": {
+        "universities": [
+            "UV"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.1,
+            "Biología": 0.2,
+            "Ciencias Generales": 0.2,
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.2,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.2,
+            "Griego II": 0.1,
+            "Historia del Arte": 0.2,
+            "Historia de la Música y la Danza": 0.1,
+            "Latín II": 0.2,
+            "Literatura Dramática": 0.1,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Periodismo": {
+        "universities": [
+            "UJI",
+            "UMH",
+            "UV"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.1,
+            "Biología": 0.1,
+            "Ciencias Generales": 0.2,
+            "Dibujo Técnico Aplicado a las Artes Plástica": 0.1,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.1,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Inglés, Alemán, Francés e Italiano": 0.2,
+            "Latín II": 0.2,
+            "Lengua castellana y Literaura II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.2,
+            "Química": 0.1,
+            "Valencià: Llengua i Literatura II": 0.2
+        }
+    },
+    "Podología": {
+        "universities": [
+            "UMH",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Física": 0.1,
+            "Matemáticas II": 0.1,
+            "Química": 0.2
+        }
+    },
+    "Psicología": {
+        "universities": [
+            "UJI",
+            "UMH",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Física": 0.1,
+            "Historia de la Filosofía": 0.1,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Publicidad y Comunicación Corporativa": {
+        "universities": [
+            "UJI"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.2,
+            "Ciencias Generales": 0.2,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.1,
+            "Historia del Arte": 0.2,
+            "Inglés, Alemán, Francés e Italiano": 0.2,
+            "Latín II": 0.2,
+            "Lengua castellana y Literaura II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.2,
+            "Valencià: Llengua i Literatura II": 0.2
+        }
+    },
+    "Publicidad y Relaciones Públicas": {
+        "universities": [
+            "UA"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.2,
+            "Ciencias Generales": 0.2,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.1,
+            "Historia del Arte": 0.2,
+            "Inglés, Alemán, Francés e Italiano": 0.2,
+            "Latín II": 0.2,
+            "Lengua castellana y Literaura II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.2,
+            "Valencià: Llengua i Literatura II": 0.2
+        }
+    },
+    "Química": {
+        "universities": [
+            "UA",
+            "UJI",
+            "UV"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Física": 0.2,
+            "Geología y Ciencias Ambientales": 0.1,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Relaciones Internacionales": {
+        "universities": [
+            "UA"
+        ],
+        "subjects": {
+            "Biología": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Historia de España": 0.1,
+            "Inglés, Alemán, Francés e Italiano": 0.2,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.1,
+            "Química": 0.1
+        }
+    },
+    "Relaciones Laborales y Recursos Humanos": {
+        "universities": [
+            "UA",
+            "UJI",
+            "UMH",
+            "UV"
+        ],
+        "subjects": {
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.1,
+            "Geografía": 0.2,
+            "Griego II": 0.1,
+            "Historia del Arte": 0.1,
+            "Latín II": 0.1,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2
+        }
+    },
+    "Seguridad Pública y Privada": {
+        "universities": [
+            "UMH"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Ciencias Generales": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.1,
+            "Historia del Arte": 0.1,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1
+        }
+    },
+    "Sociología": {
+        "universities": [
+            "UA",
+            "UV"
+        ],
+        "subjects": {
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.1,
+            "Historia del Arte": 0.1,
+            "Latín II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.1
+        }
+    },
+    "Tecnología Digital y Multimedia": {
+        "universities": [
+            "UPV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Tecnologías Interactivas": {
+        "universities": [
+            "UPV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.2
+        }
+    },
+    "Terapia Ocupacional": {
+        "universities": [
+            "UMH"
+        ],
+        "subjects": {
+            "Biología": 0.2,
+            "Física": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.1,
+            "Matemáticas II": 0.2,
+            "Química": 0.2
+        }
+    },
+    "Trabajo Social": {
+        "universities": [
+            "UA",
+            "UV"
+        ],
+        "subjects": {
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.1,
+            "Geografía": 0.2,
+            "Griego II": 0.1,
+            "Historia del Arte": 0.1,
+            "Latín II": 0.1,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.1
+        }
+    },
+    "Traducción e Interpretación": {
+        "universities": [
+            "UA",
+            "UJI"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Inglés, Alemán, Francés e Italiano": 0.2,
+            "Latín II": 0.2,
+            "Lengua castellana y Literaura II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.1,
+            "Valencià: Llengua i Literatura II": 0.2
+        }
+    },
+    "Traducción y Mediación Interlingüística": {
+        "universities": [
+            "UV"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Griego II": 0.2,
+            "Historia del Arte": 0.2,
+            "Inglés, Alemán, Francés e Italiano": 0.2,
+            "Latín II": 0.2,
+            "Lengua castellana y Literaura II": 0.2,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.1,
+            "Valencià: Llengua i Literatura II": 0.2
+        }
+    },
+    "Turismo": {
+        "universities": [
+            "UA",
+            "UJI",
+            "UPV",
+            "UV"
+        ],
+        "subjects": {
+            "Artes  Escénicas II": 0.1,
+            "Biología": 0.1,
+            "Dibujo Técnico II": 0.1,
+            "Diseño": 0.1,
+            "Empresa y Diseño de Modelos de Negocio": 0.2,
+            "Física": 0.1,
+            "Fundamentos Artísticos": 0.2,
+            "Geografía": 0.2,
+            "Geología y Ciencias Ambientales": 0.1,
+            "Griego II": 0.1,
+            "Historia del Arte": 0.2,
+            "Historia de España": 0.2,
+            "Inglés, Alemán, Francés e Italiano": 0.2,
+            "Latín II": 0.2,
+            "Lengua castellana y Literaura II": 0.1,
+            "Matemáticas Aplicadas C.Sociales II": 0.2,
+            "Matemáticas II": 0.2,
+            "Movimientos Culturales y Artísticos": 0.1,
+            "Química": 0.1,
+            "Valencià: Llengua i Literatura II": 0.1
+        }
+    },
+    "Videojuegos y Experiencias Interactivas": {
+        "universities": [
+            "UPV"
+        ],
+        "subjects": {
+            "Dibujo Técnico II": 0.2,
+            "Diseño": 0.2,
+            "Empresa y Diseño de Modelos de Negocio": 0.1,
+            "Física": 0.2,
+            "Matemáticas II": 0.2,
+            "Química": 0.1,
+            "Tecnología e Ingeniería II": 0.1
+        }
+    }
+}

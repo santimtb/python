@@ -161,6 +161,10 @@ class App:
         self.label_deportista.config(text="")
         self.show_deportista_var.set(False)
 
-root = tk.Tk()
-app = App(root)
-root.mainloop()
+def main():
+    root = tk.Tk()
+    app = App(root)
+    root.mainloop()
+
+if __name__ == '__main__':
+    main()
