@@ -1,11 +1,16 @@
 import json
 import tkinter as tk
+import customtkinter as ctk
 from tkinter import ttk
 from ttkwidgets.autocomplete import AutocompleteEntry
 
 # Cargar los datos del archivo JSON desde la subcarpeta "assets"
 with open('assets/titulaciones.json', 'r') as file:
     data = json.load(file)
+
+# Configurar apariencia y tema
+ctk.set_appearance_mode("dark")  # "light", "dark", "system"
+ctk.set_default_color_theme("green")  # Tema de colores
 
 class AutocompleteEntryWithPlaceholder(AutocompleteEntry):
     def __init__(self, master=None, placeholder="Buscar...", **kwargs):
@@ -31,7 +36,6 @@ class App:
         self.root = root
         self.root.title("Buscador de Notas de Corte")
         self.root.geometry("800x600")
-        self.root.config(bg="#374369")
 
         # Crear una lista de titulaciones, universidades y facultades para el autocompletado
         titulaciones = [item['Titulación'] for item in data]
@@ -40,12 +44,12 @@ class App:
 
         # Entry con autocompletado y marcador de posición
         #Creamos un Frame contenedor
-        self.frame_titulacion = tk.Frame(root, bg="#374369")
+        self.frame_titulacion = ctk.CTkFrame(root)
         self.frame_titulacion.pack(fill="x",expand=True,padx=10,pady=10)
         # Frame para centrar los widgets
-        self.frame_titulacion_widgets=tk.Frame(self.frame_titulacion, bg="#374369")
+        self.frame_titulacion_widgets=ctk.CTkFrame(self.frame_titulacion,fg_color="transparent")
         self.frame_titulacion_widgets.pack()
-        self.label_titulacion = tk.Label(self.frame_titulacion_widgets, text="Titulación:", font=("Verdana",14,"bold"), bg="#374369", fg="#FFE49C")
+        self.label_titulacion = ctk.CTkLabel(self.frame_titulacion_widgets, text="Titulación:", font=("Verdana",14,"bold"))
         self.label_titulacion.pack(side="left",padx=10,pady=10)
         self.entry_titulacion = AutocompleteEntryWithPlaceholder(self.frame_titulacion_widgets, completevalues=titulaciones, placeholder="Buscar Titulación", width=50)
         self.entry_titulacion.pack(side="left",padx=10,pady=10)
@@ -53,10 +57,10 @@ class App:
 
         # Filtro por universidad y facultad
         # Creamos un Frame contenedor 
-        self.frame_filtros = tk.Frame(root, bg="#374369")
+        self.frame_filtros = ctk.CTkFrame(root)
         self.frame_filtros.pack(fill="x",expand=True,padx=10,pady=5)
         # Frame para centrar los widgets
-        self.frame_filtros_widgets=tk.Frame(self.frame_filtros, bg="#374369")
+        self.frame_filtros_widgets=ctk.CTkFrame(self.frame_filtros)
         self.frame_filtros_widgets.pack()
         # Combobox para universidades
         self.combo_universidad = ttk.Combobox(self.frame_filtros_widgets, values=universidades)
@@ -76,42 +80,38 @@ class App:
         # Diccionario para mapear índices de la Listbox a elementos de datos
         self.index_map = {}
 
+        self.frame_nota_general = ctk.CTkFrame(root,fg_color="transparent")
+        self.frame_nota_general.pack(fill="x",expand=True,padx=10,pady=5)
+        self.frame_nota_general_centrado = ctk.CTkFrame(self.frame_nota_general,fg_color="transparent")
+        self.frame_nota_general_centrado.pack()
         # Etiqueta para mostrar la nota de corte general
-        self.label_general = tk.Label(root, text="", bg="#374369", fg="#B5E8BB", font=("Arial",16,"bold"))
-        self.label_general.pack(pady=5)
-        
-        # Crear un estilo personalizado
-        style = ttk.Style()
-        style.configure("Custom.TCheckbutton", 
-            background="#374369",
-            foreground="white",
-            font=("Arial", 12, "bold"),
-            borderwidth=2,
-            relief="raised",
-            padding=6
-        )
-        # Cambiar el color cuando el botón está seleccionado
-        style.map("Custom.TCheckbutton",
-            background=[("selected", "#374369"), ("active", "#374369")],  
-            foreground=[("selected", "#F5D767"), ("active", "#F567F0"),("disabled", "gray")],  # Color cuando está deshabilitado
-        )
+        self.label_general = ctk.CTkLabel(self.frame_nota_general_centrado, text="", font=("Arial",18,"bold"), text_color="#62BC63")
+        self.label_general.pack(padx=20,pady=5)
+        self.frame_nota_general_centrado.pack(anchor="center")
         # Checkbutton para mostrar la nota de deportista de élite
         self.show_deportista_var = tk.BooleanVar()
-        self.check_deportista = ttk.Checkbutton(root, text="Mostrar Nota Deportista", variable=self.show_deportista_var, command=self.update_details, style="Custom.TCheckbutton")
+        self.check_deportista = ctk.CTkCheckBox(root, text="Mostrar Nota Deportista", variable=self.show_deportista_var, command=self.update_details, font=("Arial",14,"bold"))
         self.check_deportista.pack(pady=5)
 
-        # Etiqueta para mostrar la nota de deportista de élite
-        self.label_deportista = tk.Label(root, text="", bg="#374369", fg="#F567F0", font=("Arial",16,"bold"))
-        self.label_deportista.pack(pady=5)
 
+        # Etiqueta para mostrar la nota de deportista de élite
+        self.label_deportista = ctk.CTkLabel(root, text="", font=("Arial",16,"bold"),text_color="#FC429A",fg_color="transparent")
+        self.label_deportista.pack(padx=20,pady=10)
+
+        self.frame_botones = ctk.CTkFrame(root, fg_color="transparent")
+        self.frame_botones.pack(padx=10,pady=10)
+        self.frame_botones_centrados = ctk.CTkFrame(self.frame_botones, fg_color="transparent")
+        self.frame_botones_centrados.pack(padx=20,pady=10)
+        
         # Botón para resetear filtros
-        self.reset_button = ttk.Button(root, text="Resetear Filtros", command=self.reset_filters)
-        self.reset_button.pack(pady=5)
+        self.reset_button = ctk.CTkButton(self.frame_botones_centrados, text="Resetear Filtros", command=self.reset_filters,fg_color="#A88E28", hover_color="#5C5C2E")
+        self.reset_button.pack(padx=20,pady=5,side="left")
 
         # Botón para cerrar la aplicación
-        self.close_button = ttk.Button(root, text="Cerrar", command=root.quit)
-        self.close_button.pack(pady=5)
+        self.close_button = ctk.CTkButton(self.frame_botones_centrados, text="Cerrar", command=root.quit, fg_color="#6F4257", hover_color="#533141")
+        self.close_button.pack(padx=20,pady=5,side="left")
 
+        self.frame_botones_centrados.pack(anchor="center")
         # Vincular eventos
         self.entry_titulacion.bind('<KeyRelease>', self.apply_filters)
         self.combo_universidad.bind('<<ComboboxSelected>>', self.apply_filters)
@@ -140,16 +140,16 @@ class App:
             listbox_index = selected_index[0]
             data_index = self.index_map[listbox_index]
             item = data[data_index]
-            self.label_general.config(text=f"Nota de corte General: {item['General']}")
+            self.label_general.configure(text=f"Nota de corte General: {item['General']}")
             self.selected_item = item
             self.update_details()
 
     def update_details(self):
         if hasattr(self, 'selected_item'):
             if self.show_deportista_var.get():
-                self.label_deportista.config(text=f"Nota de corte Deportista de élite: {self.selected_item['Deportista']}")
+                self.label_deportista.configure(text=f"Nota de corte Deportista de élite: {self.selected_item['Deportista']}")
             else:
-                self.label_deportista.config(text="")
+                self.label_deportista.configure(text="")
 
     def reset_filters(self):
         self.entry_titulacion.delete(0, tk.END)
@@ -157,12 +157,12 @@ class App:
         self.combo_universidad.set("Seleccionar Universidad")
         self.combo_facultad.set("Seleccionar Facultad")
         self.listbox.delete(0, tk.END)
-        self.label_general.config(text="")
-        self.label_deportista.config(text="")
+        self.label_general.configure(text="")
+        self.label_deportista.configure(text="")
         self.show_deportista_var.set(False)
 
 def main():
-    root = tk.Tk()
+    root = ctk.CTk()
     app = App(root)
     root.mainloop()
 

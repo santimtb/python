@@ -7,41 +7,45 @@ import customtkinter as ctk
 with open('assets/ponderaciones.json', 'r') as f:
     data = json.load(f)
 
+# Configurar apariencia y tema
+ctk.set_appearance_mode("dark")  # "light", "dark", "system"
+ctk.set_default_color_theme("green")  # Tema de colores
+
 class PonderacionesApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Tabla de Ponderaciones")
         self.root.geometry("800x600")
 
-        frame_filtros = ctk.CTkFrame(root)
-        frame_filtros.pack(pady=(10,5), padx=10, fill="x")
+        self.frame_filtros = ctk.CTkFrame(root)
+        self.frame_filtros.pack(pady=(10,5), padx=10, fill="x")
 
-        label_titulo = ctk.CTkLabel(frame_filtros, text="Ponderaciones universidades de la Comunidad Valenciana", font=("Arial", 20, "bold"), text_color="#A2B4F5")
-        label_titulo.pack(pady=20)
+        self.label_titulo = ctk.CTkLabel(self.frame_filtros, text="Ponderaciones universidades de la Comunidad Valenciana 2025", font=("Arial", 20, "bold"), text_color="#A2B4F5")
+        self.label_titulo.pack(pady=20)
 
-        frame_titulacion = ctk.CTkFrame(frame_filtros)
-        frame_titulacion.pack(pady=(10,5), padx=10)
-        ctk.CTkLabel(frame_titulacion, text="Titulación:", width=130).pack(side="left")
+        self.frame_titulacion = ctk.CTkFrame(self.frame_filtros)
+        self.frame_titulacion.pack(pady=(10,5), padx=10)
+        ctk.CTkLabel(self.frame_titulacion, text="Titulación:", width=130).pack(side="left")
         self.degree_var = tk.StringVar()
-        self.degree_combobox = ttk.Combobox(frame_titulacion, textvariable=self.degree_var, width=50)
+        self.degree_combobox = ttk.Combobox(self.frame_titulacion, textvariable=self.degree_var, width=50)
         self.degree_combobox.pack(side="left", padx=10)
-        frame_titulacion.pack(anchor="center")
+        self.frame_titulacion.pack(anchor="center")
 
-        frame_universidad = ctk.CTkFrame(frame_filtros)
-        frame_universidad.pack(pady=(5,5), padx=10)
-        ctk.CTkLabel(frame_universidad, text="Universidad:", width=130).pack(side="left")
+        self.frame_universidad = ctk.CTkFrame(self.frame_filtros)
+        self.frame_universidad.pack(pady=(5,5), padx=10)
+        ctk.CTkLabel(self.frame_universidad, text="Universidad:", width=130).pack(side="left")
         self.university_var = tk.StringVar()
-        self.university_combobox = ttk.Combobox(frame_universidad, textvariable=self.university_var, width=30)
+        self.university_combobox = ttk.Combobox(self.frame_universidad, textvariable=self.university_var, width=30)
         self.university_combobox.pack(padx=10)
-        frame_universidad.pack(anchor="center")
+        self.frame_universidad.pack(anchor="center")
 
-        frame_asignatura = ctk.CTkFrame(frame_filtros)
-        frame_asignatura.pack(pady=(5,5), padx=10)
-        ctk.CTkLabel(frame_asignatura, text="Asignatura:", width=130).pack(side="left")
+        self.frame_asignatura = ctk.CTkFrame(self.frame_filtros)
+        self.frame_asignatura.pack(pady=(5,5), padx=10)
+        ctk.CTkLabel(self.frame_asignatura, text="Asignatura:", width=130).pack(side="left")
         self.subject_var = tk.StringVar()
-        self.subject_combobox = ttk.Combobox(frame_asignatura, textvariable=self.subject_var, width=30)
+        self.subject_combobox = ttk.Combobox(self.frame_asignatura, textvariable=self.subject_var, width=30)
         self.subject_combobox.pack(padx=10)
-        frame_asignatura.pack(anchor="center")
+        self.frame_asignatura.pack(anchor="center")
 
         # Asociar las funciones de actualización y filtrado a los cambios en los comboboxes
         self.subject_var.trace('w', self.update_degrees_by_subject)
@@ -51,15 +55,23 @@ class PonderacionesApp:
         self.university_var.trace('w', self.filter_subjects)
         self.subject_var.trace('w', self.filter_subjects)
 
+        self.frame_botones_centrados = ctk.CTkFrame(self.frame_filtros, fg_color="transparent")
+        self.frame_botones_centrados.pack(padx=10,pady=10)
         # Crear el botón de resetear filtros
-        reset_button = ctk.CTkButton(frame_filtros, text="Resetear Filtros", command=self.reset_filters)
-        reset_button.pack(pady=(10,5))
+        self.reset_button = ctk.CTkButton(self.frame_botones_centrados, text="Resetear Filtros", command=self.reset_filters,fg_color="#A88E28", hover_color="#5C5C2E")
+        self.reset_button.pack(pady=(10,5),side="left")
 
-        frame_ponderaciones = ctk.CTkFrame(root)
-        frame_ponderaciones.pack(pady=(10,5), padx=10, fill="both", expand=True)
+        # Botón para cerrar la aplicación
+        self.close_button = ctk.CTkButton(self.frame_botones_centrados, text="Cerrar", command=root.quit, fg_color="#6F4257", hover_color="#533141")
+        self.close_button.pack(padx=20,pady=(10,5),side="left")
+        
+        self.frame_botones_centrados.pack(anchor="center")
+        
+        self.frame_ponderaciones = ctk.CTkFrame(root)
+        self.frame_ponderaciones.pack(pady=(10,5), padx=10, fill="both", expand=True)
         # Crear el treeview para mostrar los resultados
         columns = ('Asignatura', 'Ponderación')
-        self.tree = ttk.Treeview(frame_ponderaciones, columns=columns, show='headings')
+        self.tree = ttk.Treeview(self.frame_ponderaciones, columns=columns, show='headings')
         for col in columns:
             self.tree.heading(col, text=col)
         self.tree.pack(padx=10, pady=10, fill="both", expand=True)

@@ -23,14 +23,6 @@ def valida_nota(value_if_allowed):
     except ValueError:
         return False
 
-# Función cuando cualquier Entry obtiene el foco
-#def on_focus_in(entry):
-    #entry.configure(fg_color="lightgreen")  # Cambia el borde del Entry que recibe el foco
-
-# Función cuando cualquier Entry pierde el foco
-#def on_focus_out(entry):
-    #entry.configure(fg_color="white")  # Restaura el border del Entry que pierde el foco
-
 def valida_notas():
     bachi=entry_bachiller.get()
     # Nota Media de Bachillerato vacía
