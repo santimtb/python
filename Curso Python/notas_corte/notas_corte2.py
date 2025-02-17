@@ -35,13 +35,19 @@ class App:
     def __init__(self, root):
         self.root = root
         self.root.title("Buscador de Notas de Corte")
-        self.root.geometry("800x600")
+        self.root.geometry("800x700")
 
         # Crear una lista de titulaciones, universidades y facultades para el autocompletado
         titulaciones = [item['Titulación'] for item in data]
         universidades = list(set(item['Universidad'] for item in data))
         facultades = list(set(item['Facultad'] for item in data))
 
+        # Frame para el título de la ventana
+        self.frame_titulo = ctk.CTkFrame(root,fg_color="#1DB1AC")
+        self.frame_titulo.pack(padx=10,pady=10,fill="x",expand="True")
+        self.label_titulo = ctk.CTkLabel(self.frame_titulo, text="Notas de Corte de la Comunidad Valenciana 2024", font=("Arial", 20, "bold"))
+        self.label_titulo.pack(pady=20)
+        
         # Entry con autocompletado y marcador de posición
         #Creamos un Frame contenedor
         self.frame_titulacion = ctk.CTkFrame(root)

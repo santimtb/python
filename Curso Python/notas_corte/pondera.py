@@ -20,7 +20,10 @@ class PonderacionesApp:
         self.frame_filtros = ctk.CTkFrame(root)
         self.frame_filtros.pack(pady=(10,5), padx=10, fill="x")
 
-        self.label_titulo = ctk.CTkLabel(self.frame_filtros, text="Ponderaciones universidades de la Comunidad Valenciana 2025", font=("Arial", 20, "bold"), text_color="#A2B4F5")
+        # Frame para el título de la ventana
+        self.frame_titulo = ctk.CTkFrame(self.frame_filtros,fg_color="#1DB1AC")
+        self.frame_titulo.pack(padx=10,pady=10,fill="x",expand="True")
+        self.label_titulo = ctk.CTkLabel(self.frame_titulo, text="Ponderaciones universidades de la Comunidad Valenciana 2025", font=("Arial", 20, "bold"))
         self.label_titulo.pack(pady=20)
 
         self.frame_titulacion = ctk.CTkFrame(self.frame_filtros)
