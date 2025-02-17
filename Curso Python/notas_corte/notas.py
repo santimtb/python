@@ -186,6 +186,11 @@ ventana_principal.title("Simulador EBAU")
 valida_nota_bachiller_cmd = ventana_principal.register(valida_nota_bachiller)
 valida_nota_cmd = ventana_principal.register(valida_nota)
 
+# Frame para el título de la ventana
+frame_titulo = ctk.CTkFrame(ventana_principal,fg_color="#1DB1AC")
+frame_titulo.pack(padx=10,pady=10,fill="x",expand="True")
+label_titulo = ctk.CTkLabel(frame_titulo, text ="Simulador de Notas de la EBAU 2025",font=("Verdana",20,"bold"))
+label_titulo.pack(pady=10)
 # Frame para la Nota Media de Bachillerato
 frame_bachiller = ctk.CTkFrame(ventana_principal)
 frame_bachiller.pack(pady=(10,5), padx=10, fill="x")
