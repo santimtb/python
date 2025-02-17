@@ -1,7 +1,9 @@
 import subprocess
 import customtkinter as ctk
 from tkinter import messagebox
-import json
+import sys
+import os
+import multiprocessing
 
 # Configurar apariencia y tema
 ctk.set_appearance_mode("dark")  # "light", "dark", "system"
@@ -303,17 +305,22 @@ class SimuladorApp:
         notas = [entry.get() for entry in self.entries]
         #print("Notas ingresadas:", notas)
         return notas
+    
+    def ejecutar_subproceso(self,script_name):
+        try:
+            script_path = os.path.join(os.path.dirname(__file__), script_name)
+            subprocess.run([sys.executable, script_path])
+        except Exception as e:
+            print(f"Error al ejecutar {script_name}: {e}")
 
     def abre_notas_corte(self):
-        subprocess.Popen(["python3", "notas_corte2.py"])
+        self.ejecutar_subproceso("notas_corte2.py")
         
     def abre_ponderaciones(self):
-        subprocess.Popen(["python3", "pondera.py"])
+        self.ejecutar_subproceso("pondera.py")
         
-def main():
+if __name__ == "__main__":
+    multiprocessing.set_start_method('forkserver')
     root = ctk.CTk()
     app = SimuladorApp(root)
     root.mainloop()
-
-if __name__ == "__main__":
-    main()

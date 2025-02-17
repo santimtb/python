@@ -3,10 +3,14 @@ import tkinter as tk
 import customtkinter as ctk
 from tkinter import ttk
 from ttkwidgets.autocomplete import AutocompleteEntry
+import os
 
-# Cargar los datos del archivo JSON desde la subcarpeta "assets"
-with open('assets/titulaciones.json', 'r') as file:
-    data = json.load(file)
+def leer_json():
+    script_dir = os.path.dirname(__file__)
+    json_path = os.path.join(script_dir, 'assets', 'ponderaciones.json')
+    with open(json_path, 'r') as file:
+        data = json.load(file)
+    return data
 
 # Configurar apariencia y tema
 ctk.set_appearance_mode("dark")  # "light", "dark", "system"
@@ -167,10 +171,8 @@ class App:
         self.label_deportista.configure(text="")
         self.show_deportista_var.set(False)
 
-def main():
-    root = ctk.CTk()
-    app = App(root)
-    root.mainloop()
-
 if __name__ == '__main__':
-    main()
+    data = leer_json()
+    corte = ctk.CTk()
+    app2 = App(corte)
+    corte.mainloop()

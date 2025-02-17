@@ -2,10 +2,14 @@ import tkinter as tk
 from tkinter import ttk
 import json
 import customtkinter as ctk
+import os
 
-# Cargar los datos JSON desde el archivo
-with open('assets/ponderaciones.json', 'r') as f:
-    data = json.load(f)
+def leer_json():
+    script_dir = os.path.dirname(__file__)
+    json_path = os.path.join(script_dir, 'assets', 'ponderaciones.json')
+    with open(json_path, 'r') as file:
+        data = json.load(file)
+    return data
 
 # Configurar apariencia y tema
 ctk.set_appearance_mode("dark")  # "light", "dark", "system"
@@ -178,10 +182,8 @@ class PonderacionesApp:
         self.tree.heading('Asignatura', text='Asignatura')
         self.tree.heading('Ponderación', text='Ponderación')
 
-def main():
-    root = ctk.CTk()
-    app = PonderacionesApp(root)
-    root.mainloop()
-
 if __name__ == "__main__":
-    main()
+    data = leer_json()
+    pondera = ctk.CTk()
+    app1 = PonderacionesApp(pondera)
+    pondera.mainloop()
