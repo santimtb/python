@@ -7,7 +7,7 @@ import os
 
 def leer_json():
     script_dir = os.path.dirname(__file__)
-    json_path = os.path.join(script_dir, 'assets', 'ponderaciones.json')
+    json_path = os.path.join(script_dir, 'assets', 'titulaciones.json')
     with open(json_path, 'r') as file:
         data = json.load(file)
     return data
@@ -35,16 +35,16 @@ class AutocompleteEntryWithPlaceholder(AutocompleteEntry):
             self.insert(0, self.placeholder)
             self.placeholder_active = True
 
-class App:
+class CorteApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Buscador de Notas de Corte")
         self.root.geometry("800x700")
 
         # Crear una lista de titulaciones, universidades y facultades para el autocompletado
-        titulaciones = [item['Titulación'] for item in data]
-        universidades = list(set(item['Universidad'] for item in data))
-        facultades = list(set(item['Facultad'] for item in data))
+        self.titulaciones = [item['Titulación'] for item in data_corte]
+        self.universidades = list(set(item['Universidad'] for item in data_corte))
+        self.facultades = list(set(item['Facultad'] for item in data_corte))
 
         # Frame para el título de la ventana
         self.frame_titulo = ctk.CTkFrame(root,fg_color="#1DB1AC")
@@ -61,7 +61,7 @@ class App:
         self.frame_titulacion_widgets.pack()
         self.label_titulacion = ctk.CTkLabel(self.frame_titulacion_widgets, text="Titulación:", font=("Verdana",14,"bold"))
         self.label_titulacion.pack(side="left",padx=10,pady=10)
-        self.entry_titulacion = AutocompleteEntryWithPlaceholder(self.frame_titulacion_widgets, completevalues=titulaciones, placeholder="Buscar Titulación", width=50)
+        self.entry_titulacion = AutocompleteEntryWithPlaceholder(self.frame_titulacion_widgets, completevalues=self.titulaciones, placeholder="Buscar Titulación", width=50)
         self.entry_titulacion.pack(side="left",padx=10,pady=10)
         self.frame_titulacion_widgets.pack(anchor="center")
 
@@ -73,11 +73,11 @@ class App:
         self.frame_filtros_widgets=ctk.CTkFrame(self.frame_filtros)
         self.frame_filtros_widgets.pack()
         # Combobox para universidades
-        self.combo_universidad = ttk.Combobox(self.frame_filtros_widgets, values=universidades)
+        self.combo_universidad = ttk.Combobox(self.frame_filtros_widgets, values=self.universidades)
         self.combo_universidad.pack(side="left",padx=10,pady=10)
         self.combo_universidad.set("Seleccionar Universidad")
         # Combobox para facultades
-        self.combo_facultad = ttk.Combobox(self.frame_filtros_widgets, values=facultades)
+        self.combo_facultad = ttk.Combobox(self.frame_filtros_widgets, values=self.facultades)
         self.combo_facultad.pack(side="left", padx=10,pady=10)
         self.combo_facultad.set("Seleccionar Facultad")
         self.frame_filtros_widgets.pack(anchor="center")
@@ -136,7 +136,7 @@ class App:
 
         self.listbox.delete(0, tk.END)
         self.index_map.clear()
-        for index, item in enumerate(data):
+        for index, item in enumerate(data_corte):
             if (search_term in item['Titulación'].lower() and
                 (selected_universidad == "Seleccionar Universidad" or item['Universidad'] == selected_universidad) and
                 (selected_facultad == "Seleccionar Facultad" or item['Facultad'] == selected_facultad)):
@@ -149,7 +149,7 @@ class App:
         if selected_index:
             listbox_index = selected_index[0]
             data_index = self.index_map[listbox_index]
-            item = data[data_index]
+            item = data_corte[data_index]
             self.label_general.configure(text=f"Nota de corte General: {item['General']}")
             self.selected_item = item
             self.update_details()
@@ -172,7 +172,7 @@ class App:
         self.show_deportista_var.set(False)
 
 if __name__ == '__main__':
-    data = leer_json()
+    data_corte = leer_json()
     corte = ctk.CTk()
-    app2 = App(corte)
+    app2 = CorteApp(corte)
     corte.mainloop()

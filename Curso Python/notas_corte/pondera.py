@@ -87,11 +87,11 @@ class PonderacionesApp:
         self.update_comboboxes()
 
     def update_comboboxes(self):
-        degrees = set(data.keys())
+        degrees = set(data_ponderaciones.keys())
         universities = set()
         subjects = set()
 
-        for details in data.values():
+        for details in data_ponderaciones.values():
             universities.update(details['universities'])
             subjects.update(details['subjects'].keys())
 
@@ -102,7 +102,7 @@ class PonderacionesApp:
     def update_degrees_by_subject(self, *args):
         subject = self.subject_var.get()
         if subject:
-            degrees = [deg for deg, details in data.items() if subject in details['subjects']]
+            degrees = [deg for deg, details in data_ponderaciones.items() if subject in details['subjects']]
             self.degree_combobox['values'] = sorted(degrees)
             self.show_degree_column()
         else:
@@ -111,7 +111,7 @@ class PonderacionesApp:
     def update_degrees_by_university(self, *args):
         university = self.university_var.get()
         if university:
-            degrees = [deg for deg, details in data.items() if university in details['universities']]
+            degrees = [deg for deg, details in data_ponderaciones.items() if university in details['universities']]
             self.degree_combobox['values'] = sorted(degrees)
             self.show_degree_column()
         else:
@@ -120,8 +120,8 @@ class PonderacionesApp:
     def update_universities_and_subjects_by_degree(self, *args):
         degree = self.degree_var.get()
         if degree:
-            universities = set(data[degree]['universities'])
-            subjects = set(data[degree]['subjects'].keys())
+            universities = set(data_ponderaciones[degree]['universities'])
+            subjects = set(data_ponderaciones[degree]['subjects'].keys())
             self.university_combobox['values'] = sorted(universities)
             self.subject_combobox['values'] = sorted(subjects)
             self.hide_degree_column()
@@ -135,7 +135,7 @@ class PonderacionesApp:
 
         results = []
 
-        for deg, details in data.items():
+        for deg, details in data_ponderaciones.items():
             if degree and degree != deg:
                 continue
             if university and university not in details['universities']:
@@ -183,7 +183,7 @@ class PonderacionesApp:
         self.tree.heading('Ponderación', text='Ponderación')
 
 if __name__ == "__main__":
-    data = leer_json()
+    data_ponderaciones = leer_json()
     pondera = ctk.CTk()
     app1 = PonderacionesApp(pondera)
     pondera.mainloop()
