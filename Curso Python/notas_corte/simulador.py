@@ -356,10 +356,11 @@ class SimuladorApp:
     def __init__(self, root):
         self.root = root
         # Crear la ventana principal
-        self.root.geometry("800x810+200+200")
+        self.root.geometry("800x810+200+80")
         self.root.title("Simulador EBAU 2025")
         self.icon = ImageTk.PhotoImage(file=os.path.join(os.path.dirname(__file__), 'assets', 'applogo.ico'))
         self.root.iconphoto(False, self.icon)
+        
         # Registramos la función para validar mientras se escribe en un Entry
         self.valida_nota_bachiller_cmd = root.register(self.valida_nota_bachiller)
         self.valida_nota_cmd = root.register(self.valida_nota)
@@ -489,8 +490,6 @@ class SimuladorApp:
         self.boton_salir.pack(side="right",padx=10,pady=10)
         self.frame_botones_centro.pack()
         
-    def icono(self):
-        return self.icon
     
     # Función para validar mientras se escribe la nota de Bachiller
     def valida_nota_bachiller(self,value_if_allowed):
@@ -544,9 +543,7 @@ class SimuladorApp:
         self.ventana_resultados = ctk.CTkToplevel(self.root)
         self.ventana_resultados.title("Resultados EBAU")
         self.ventana_resultados.geometry("600x540")
-
-        # Mostrar los resultados en la nueva ventana
-        
+       
         # Resultado de la EBAU
         self.ventana_resultados.frame_resultado_ebau=ctk.CTkFrame(self.ventana_resultados)
         self.ventana_resultados.frame_resultado_ebau.pack(pady=10, padx=10, fill="x")
@@ -663,7 +660,7 @@ class SimuladorApp:
         self.pondera = ctk.CTkToplevel(self.root)
         app1 = PonderacionesApp(self.pondera)
         self.pondera.grab_set()
-        
+
 if __name__ == "__main__":
     root = ctk.CTk()
     app = SimuladorApp(root)
