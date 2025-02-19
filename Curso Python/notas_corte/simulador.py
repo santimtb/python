@@ -3,6 +3,7 @@ from tkinter import messagebox
 import tkinter as tk
 from tkinter import ttk
 from ttkwidgets.autocomplete import AutocompleteEntry
+from PIL import Image, ImageTk
 import json
 import sys
 import os
@@ -34,7 +35,9 @@ class CorteApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Buscador de Notas de Corte")
-        self.root.geometry("800x700")
+        self.root.geometry("800x700+100+100")
+        self.icon = ImageTk.PhotoImage(file=os.path.join(os.path.dirname(__file__), 'assets', 'applogo.ico'))
+        self.root.iconphoto(False, self.icon)
         self.data_corte = self.leer_json()
         # Crear una lista de titulaciones, universidades y facultades para el autocompletado
         self.titulaciones = [item['Titulación'] for item in self.data_corte]
@@ -113,7 +116,7 @@ class CorteApp:
         self.reset_button.pack(padx=20,pady=5,side="left")
 
         # Botón para cerrar la aplicación
-        self.close_button = ctk.CTkButton(self.frame_botones_centrados, text="Cerrar", command=root.quit, fg_color="#6F4257", hover_color="#533141")
+        self.close_button = ctk.CTkButton(self.frame_botones_centrados, text="Cerrar", command=self.root.destroy, fg_color="#6F4257", hover_color="#533141")
         self.close_button.pack(padx=20,pady=5,side="left")
 
         self.frame_botones_centrados.pack(anchor="center")
@@ -177,7 +180,9 @@ class PonderacionesApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Tabla de Ponderaciones")
-        self.root.geometry("800x600")
+        self.root.geometry("800x600+100+100")
+        self.icon = ImageTk.PhotoImage(file=os.path.join(os.path.dirname(__file__), 'assets', 'applogo.ico'))
+        self.root.iconphoto(False, self.icon)
         self.data_ponderaciones = self.leer_json()
         self.frame_filtros = ctk.CTkFrame(root)
         self.frame_filtros.pack(pady=(10,5), padx=10, fill="x")
@@ -227,7 +232,7 @@ class PonderacionesApp:
         self.reset_button.pack(pady=(10,5),side="left")
 
         # Botón para cerrar la aplicación
-        self.close_button = ctk.CTkButton(self.frame_botones_centrados, text="Cerrar", command=root.quit, fg_color="#6F4257", hover_color="#533141")
+        self.close_button = ctk.CTkButton(self.frame_botones_centrados, text="Cerrar", command=self.root.destroy, fg_color="#6F4257", hover_color="#533141")
         self.close_button.pack(padx=20,pady=(10,5),side="left")
         
         self.frame_botones_centrados.pack(anchor="center")
@@ -353,6 +358,8 @@ class SimuladorApp:
         # Crear la ventana principal
         self.root.geometry("800x810+200+200")
         self.root.title("Simulador EBAU 2025")
+        self.icon = ImageTk.PhotoImage(file=os.path.join(os.path.dirname(__file__), 'assets', 'applogo.ico'))
+        self.root.iconphoto(False, self.icon)
         # Registramos la función para validar mientras se escribe en un Entry
         self.valida_nota_bachiller_cmd = root.register(self.valida_nota_bachiller)
         self.valida_nota_cmd = root.register(self.valida_nota)
@@ -482,6 +489,9 @@ class SimuladorApp:
         self.boton_salir.pack(side="right",padx=10,pady=10)
         self.frame_botones_centro.pack()
         
+    def icono(self):
+        return self.icon
+    
     # Función para validar mientras se escribe la nota de Bachiller
     def valida_nota_bachiller(self,value_if_allowed):
         if value_if_allowed == "":
