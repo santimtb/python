@@ -252,7 +252,7 @@ class PonderacionesApp:
     def leer_json(self):
         script_dir = os.path.dirname(__file__)
         json_path = os.path.join(script_dir, 'assets', 'ponderaciones.json')
-        with open(json_path, 'r') as file:
+        with open(json_path, 'r',  encoding='utf-8') as file:
             data = json.load(file)
         return data
     
@@ -543,7 +543,7 @@ class SimuladorApp:
         self.ventana_resultados = ctk.CTkToplevel(self.root)
         self.ventana_resultados.title("Resultados EBAU")
         self.ventana_resultados.geometry("600x540")
-       
+        self.ventana_resultados.attributes("-topmost", True)
         # Resultado de la EBAU
         self.ventana_resultados.frame_resultado_ebau=ctk.CTkFrame(self.ventana_resultados)
         self.ventana_resultados.frame_resultado_ebau.pack(pady=10, padx=10, fill="x")
