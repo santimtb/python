@@ -7,7 +7,7 @@ from PIL import Image  #pip install Pillow
 import requests        #pip install requests
 import time
 import os
-from dotenv import load_dotenv
+from dotenv import load_dotenv #pip install python-dotenv
 
 # Carga las variables de entorno del archivo .env
 load_dotenv()
