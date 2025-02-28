@@ -35,7 +35,7 @@ class CorteApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Buscador de Notas de Corte")
-        self.root.geometry("800x700+100+100")
+        self.root.geometry("800x600+100+100")
         self.icon = ImageTk.PhotoImage(file=os.path.join(os.path.dirname(__file__), 'assets', 'applogo.ico'))
         self.root.iconphoto(False, self.icon)
         self.data_corte = self.leer_json()
@@ -48,19 +48,19 @@ class CorteApp:
         self.frame_titulo = ctk.CTkFrame(root,fg_color="#1DB1AC")
         self.frame_titulo.pack(padx=10,pady=10,fill="x",expand="True")
         self.label_titulo = ctk.CTkLabel(self.frame_titulo, text="Notas de Corte de la Comunidad Valenciana 2024", font=("Arial", 20, "bold"))
-        self.label_titulo.pack(pady=20)
+        self.label_titulo.pack(pady=10)
         
         # Entry con autocompletado y marcador de posición
         #Creamos un Frame contenedor
         self.frame_titulacion = ctk.CTkFrame(root)
-        self.frame_titulacion.pack(fill="x",expand=True,padx=10,pady=10)
+        self.frame_titulacion.pack(fill="x",expand=True,padx=10,pady=5)
         # Frame para centrar los widgets
         self.frame_titulacion_widgets=ctk.CTkFrame(self.frame_titulacion,fg_color="transparent")
-        self.frame_titulacion_widgets.pack()
+        self.frame_titulacion_widgets.pack(pady=5)
         self.label_titulacion = ctk.CTkLabel(self.frame_titulacion_widgets, text="Titulación:", font=("Verdana",14,"bold"))
-        self.label_titulacion.pack(side="left",padx=10,pady=10)
+        self.label_titulacion.pack(side="left",padx=10,pady=5)
         self.entry_titulacion = AutocompleteEntryWithPlaceholder(self.frame_titulacion_widgets, completevalues=self.titulaciones, placeholder="Buscar Titulación", width=50)
-        self.entry_titulacion.pack(side="left",padx=10,pady=10)
+        self.entry_titulacion.pack(side="left",padx=10,pady=5)
         self.frame_titulacion_widgets.pack(anchor="center")
 
         # Filtro por universidad y facultad
@@ -104,12 +104,12 @@ class CorteApp:
 
         # Etiqueta para mostrar la nota de deportista de élite
         self.label_deportista = ctk.CTkLabel(root, text="", font=("Arial",16,"bold"),text_color="#FC429A",fg_color="transparent")
-        self.label_deportista.pack(padx=20,pady=10)
+        self.label_deportista.pack(padx=20,pady=5)
 
         self.frame_botones = ctk.CTkFrame(root, fg_color="transparent")
-        self.frame_botones.pack(padx=10,pady=10)
+        self.frame_botones.pack(padx=10,pady=5)
         self.frame_botones_centrados = ctk.CTkFrame(self.frame_botones, fg_color="transparent")
-        self.frame_botones_centrados.pack(padx=20,pady=10)
+        self.frame_botones_centrados.pack(padx=20,pady=5)
         
         # Botón para resetear filtros
         self.reset_button = ctk.CTkButton(self.frame_botones_centrados, text="Resetear Filtros", command=self.reset_filters,fg_color="#A88E28", hover_color="#5C5C2E")
@@ -356,7 +356,7 @@ class SimuladorApp:
     def __init__(self, root):
         self.root = root
         # Crear la ventana principal
-        self.root.geometry("800x810+200+80")
+        self.root.geometry("800x700+200+80")
         self.root.title("Simulador EBAU 2025")
         self.icon = ImageTk.PhotoImage(file=os.path.join(os.path.dirname(__file__), 'assets', 'applogo.ico'))
         self.root.iconphoto(False, self.icon)
@@ -369,24 +369,28 @@ class SimuladorApp:
         self.frame_titulo = ctk.CTkFrame(root,fg_color="#1DB1AC")
         self.frame_titulo.pack(padx=10,pady=10,fill="x",expand="True")
         self.label_titulo = ctk.CTkLabel(self.frame_titulo, text ="Simulador de Notas de la EBAU 2025",font=("Verdana",20,"bold"))
-        self.label_titulo.pack(pady=10)
+        self.label_titulo.pack(pady=5)
         # Frame para la Nota Media de Bachillerato
         self.frame_bachiller = ctk.CTkFrame(root)
-        self.frame_bachiller.pack(pady=(10,5), padx=10, fill="x")
+        self.frame_bachiller.pack(pady=5, padx=10, fill="x")
+        
+        self.frame_bachiller_centro = ctk.CTkFrame(self.frame_bachiller,fg_color="transparent")
+        self.frame_bachiller_centro.pack()
 
-        ctk.CTkLabel(self.frame_bachiller, text="Nota Media de Bachillerato:", font=("Arial", 14, "bold")).pack(pady=(5,0))
-        self.entry_bachiller = ctk.CTkEntry(self.frame_bachiller, validate="key", validatecommand=(self.valida_nota_bachiller_cmd, '%P'), placeholder_text="Nota media de bachiller...", justify="center",width=250)
+        ctk.CTkLabel(self.frame_bachiller_centro, text="Nota Media de Bachillerato:", font=("Arial", 14, "bold")).pack(side="left",pady=5,padx=10)
+        self.entry_bachiller = ctk.CTkEntry(self.frame_bachiller_centro, validate="key", validatecommand=(self.valida_nota_bachiller_cmd, '%P'), placeholder_text="Nota media de bachiller...", justify="center",width=250)
         #entry1.bind("<FocusIn>", lambda e: on_focus_in(entry1))   # Evento cuando obtiene el foco
         #entry1.bind("<FocusOut>", lambda e: on_focus_out(entry1)) # Evento cuando pierde el foco
-        self.entry_bachiller.pack(pady=10)
+        self.entry_bachiller.pack(padx=10,pady=5, side="left")
+        self.frame_bachiller_centro.pack(anchor="center")
 
         # Frame central
         self.frame_central = ctk.CTkFrame(root)
-        self.frame_central.pack(pady=(5,5), padx=10, fill="x")
+        self.frame_central.pack(pady=5, padx=10, fill="x")
 
         # Frame para la Fase Obligatoria
         self.frame_fase_obligatoria = ctk.CTkFrame(self.frame_central, width=400)
-        self.frame_fase_obligatoria.pack(side="left", pady=(10,10), padx=(10,5), fill="both", expand=True)
+        self.frame_fase_obligatoria.pack(side="left", pady=5, padx=(10,5), fill="both", expand=True)
 
         self.titulo = ctk.CTkLabel(self.frame_fase_obligatoria, text="Fase Obligatoria", font=("Arial", 14, "bold"), anchor="center")
         self.titulo.pack(fill="x", padx=10, pady=(5, 0))  
@@ -395,7 +399,7 @@ class SimuladorApp:
 
         self.entries = []  # Lista para almacenar los entry de la Fase General
         for i in range(4):  # Asignaturas de la Fase General excepto la troncal de modalidad que lleva ponderación
-            ctk.CTkLabel(self.frame_fase_obligatoria, text=f"{self.fase_general[i]}:").pack(pady=(5,0))
+            ctk.CTkLabel(self.frame_fase_obligatoria, text=f"{self.fase_general[i]}").pack(pady=(5,0))
             self.entry = ctk.CTkEntry(self.frame_fase_obligatoria, validate="key", validatecommand=(self.valida_nota_cmd, '%P'), width=250, placeholder_text=f"Nota {self.fase_general[i]}", justify="center")
             self.entry.pack(pady=(0,5))
             self.entries.append(self.entry)
@@ -404,7 +408,7 @@ class SimuladorApp:
         # TRONCAL DE MODALIDAD
         # Frame para la TRONCAL DE MODALIDAD
         self.frame_troncal = ctk.CTkFrame(self.frame_fase_obligatoria)
-        self.frame_troncal.pack(pady=(5,5), padx=10, fill="x", expand=True)
+        self.frame_troncal.pack(pady=5, padx=10, fill="x", expand=True)
         ctk.CTkLabel(self.frame_troncal, text=f"{self.fase_general[-1]}").pack(pady=(5,0))
         self.entry = ctk.CTkEntry(self.frame_troncal, validate="key", validatecommand=(self.valida_nota_cmd, '%P'), width=250, placeholder_text=f"Nota {self.fase_general[-1]}...", justify="center")
         self.entry.pack(pady=5)
@@ -413,7 +417,7 @@ class SimuladorApp:
         self.ponderacion_troncal = ctk.DoubleVar(value=0.2)  # Valor por defecto 0.2
         # Frame para agrupar los botones de ponderación troncal
         self.frame_pondera_troncal = ctk.CTkFrame(self.frame_troncal)
-        self.frame_pondera_troncal.pack(pady=10, padx=10, fill="x")
+        self.frame_pondera_troncal.pack(pady=5, padx=10, fill="x")
         # Etiqueta
         ctk.CTkLabel(self.frame_pondera_troncal, text="Ponderación:").pack(pady=5)
         # RadioButtons
@@ -424,13 +428,13 @@ class SimuladorApp:
 
         # Frame para la Fase Voluntaria
         self.frame_fase_voluntaria = ctk.CTkFrame(self.frame_central, width=400)
-        self.frame_fase_voluntaria.pack(side="left", pady=(10,10), padx=(5,10), fill="both", expand=True)
+        self.frame_fase_voluntaria.pack(side="left", pady=5, padx=(5,10), fill="both", expand=True)
         self.titulo2 = ctk.CTkLabel(self.frame_fase_voluntaria, text="Fase Voluntaria", font=("Arial", 14, "bold"), anchor="center")
         self.titulo2.pack(fill="x", padx=10, pady=(5, 0))  
         #OPTATIVA 1
         # Frame para la Optativa 1
         self.frame_optativa1 = ctk.CTkFrame(self.frame_fase_voluntaria)
-        self.frame_optativa1.pack(pady=(5,5), padx=10, fill="x", expand=True)
+        self.frame_optativa1.pack(pady=5, padx=10, fill="x", expand=True)
         ctk.CTkLabel(self.frame_optativa1, text="Optativa 1").pack(pady=(5,0))
         self.entry_optativa1 = ctk.CTkEntry(self.frame_optativa1, validate="key", validatecommand=(self.valida_nota_cmd, '%P'), placeholder_text="Nota optativa 1...", justify="center")
         self.entry_optativa1.pack(pady=5)
@@ -438,18 +442,18 @@ class SimuladorApp:
         self.ponderacion1 = ctk.DoubleVar(value=0.2)  # Valor por defecto 0.2
         # Frame para agrupar los botones de Optativa 1
         self.frame_radio1 = ctk.CTkFrame(self.frame_optativa1)
-        self.frame_radio1.pack(pady=10, padx=10, fill="x")
+        self.frame_radio1.pack(pady=5, padx=10, fill="x")
         # Etiqueta
         ctk.CTkLabel(self.frame_radio1, text="Ponderación:").pack(pady=5)
         # RadioButtons
         self.radio1 = ctk.CTkRadioButton(self.frame_radio1, text=" 0.2", variable=self.ponderacion1, value=0.2)
-        self.radio1.pack(side="left",expand=True, anchor="e",pady=(0,10))    
+        self.radio1.pack(side="left",expand=True, anchor="e",pady=(0,5))    
         self.radio2 = ctk.CTkRadioButton(self.frame_radio1, text=" 0.1", variable=self.ponderacion1, value=0.1)
-        self.radio2.pack(side="left",expand=True, anchor="center", pady=(0,10))
+        self.radio2.pack(side="left",expand=True, anchor="center", pady=(0,5))
         # OPTATIVA 2
         # Frame para la Optativa 2
         self.frame_optativa2 = ctk.CTkFrame(self.frame_fase_voluntaria)
-        self.frame_optativa2.pack(pady=(5,10), padx=10, fill="x")
+        self.frame_optativa2.pack(pady=5, padx=10, fill="x")
         ctk.CTkLabel(self.frame_optativa2, text="Optativa 2").pack(pady=(5,0))
         self.entry_optativa2 = ctk.CTkEntry(self.frame_optativa2, validate="key", validatecommand=(self.valida_nota_cmd, '%P'), placeholder_text="Nota optativa 2...", justify="center")
         self.entry_optativa2.pack(pady=5)
@@ -457,37 +461,37 @@ class SimuladorApp:
         self.ponderacion2 = ctk.DoubleVar(value=0.2)  # Valor por defecto 0.2
         # Frame para agrupar los botones de Optativa 1
         self.frame_radio2 = ctk.CTkFrame(self.frame_optativa2)
-        self.frame_radio2.pack(pady=10, padx=10, fill="x")
+        self.frame_radio2.pack(pady=5, padx=10, fill="x")
         # Etiqueta
         ctk.CTkLabel(self.frame_radio2, text="Ponderación:").pack(pady=5)
         # RadioButtons
         self.radio3 = ctk.CTkRadioButton(self.frame_radio2, text=" 0.2", variable=self.ponderacion2, value=0.2)
-        self.radio3.pack(side="left",pady=(0,10),expand=True, anchor="e")
+        self.radio3.pack(side="left",pady=(0,5),expand=True, anchor="e")
         self.radio4 = ctk.CTkRadioButton(self.frame_radio2, text=" 0.1", variable=self.ponderacion2, value=0.1)
-        self.radio4.pack(side="left",pady=(0,10), expand=True, anchor="center")
+        self.radio4.pack(side="left",pady=(0,5), expand=True, anchor="center")
 
 
         # Frame para el botón de Calcular
         self.frame_boton = ctk.CTkFrame(root)
-        self.frame_boton.pack(pady=(5,5), padx=10, fill="x")
+        self.frame_boton.pack(pady=5, padx=10, fill="x")
         # Botón para leer las notas
         self.boton = ctk.CTkButton(self.frame_boton, text="Obtener resultado EBAU", command=self.resultado_ebau)
-        self.boton.pack(pady=10)
+        self.boton.pack(pady=5)
 
         # Frame para los botones adicionales para Consultar las Notas de Corte y Ponderaciones
         self.frame_botones = ctk.CTkFrame(root)
-        self.frame_botones.pack(pady=(5,5), padx=10, fill="x")
+        self.frame_botones.pack(pady=5, padx=10, fill="x")
         #frame_botones_centro
         self.frame_botones_centro = ctk.CTkFrame(self.frame_botones,fg_color="transparent")
-        self.frame_botones_centro.pack(pady=(5,5), padx=10)
+        self.frame_botones_centro.pack(pady=5, padx=10)
         # Botón para Notas de Corte
         self.boton_notas_corte = ctk.CTkButton(self.frame_botones_centro, text="Notas de Corte 2024", command=self.abre_notas_corte,fg_color="#B1B11D", hover_color="#5C5C2E")
-        self.boton_notas_corte.pack(side="left",pady=10,padx=10)
+        self.boton_notas_corte.pack(side="left",pady=5,padx=10)
         # Botón para Ponderaciones
         self.boton_ponderaciones = ctk.CTkButton(self.frame_botones_centro, text="Ponderaciones 2024", command=self.abre_ponderaciones,fg_color="#1DB1AC", hover_color="#2E5C5A")
-        self.boton_ponderaciones.pack(side="left",pady=10,padx=10)
+        self.boton_ponderaciones.pack(side="left",pady=5,padx=10)
         self.boton_salir = ctk.CTkButton(self.frame_botones_centro, text = "Salir", command=root.destroy,fg_color="#C1194E", hover_color="#6A0E2B")
-        self.boton_salir.pack(side="right",padx=10,pady=10)
+        self.boton_salir.pack(side="right",padx=10,pady=5)
         self.frame_botones_centro.pack()
         
     
