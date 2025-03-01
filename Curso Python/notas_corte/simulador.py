@@ -4,6 +4,7 @@ import tkinter as tk
 from tkinter import ttk
 from ttkwidgets.autocomplete import AutocompleteEntry
 from PIL import Image, ImageTk
+from tkinter import Canvas
 import json
 import sys
 import os
@@ -360,7 +361,7 @@ class SimuladorApp:
         self.root.title("Simulador EBAU 2025")
         self.icon = ImageTk.PhotoImage(file=os.path.join(os.path.dirname(__file__), 'assets', 'applogo.ico'))
         self.root.iconphoto(False, self.icon)
-        
+
         # Registramos la función para validar mientras se escribe en un Entry
         self.valida_nota_bachiller_cmd = root.register(self.valida_nota_bachiller)
         self.valida_nota_cmd = root.register(self.valida_nota)
@@ -477,7 +478,6 @@ class SimuladorApp:
         # Botón para leer las notas
         self.boton = ctk.CTkButton(self.frame_boton, text="Obtener resultado EBAU", command=self.resultado_ebau)
         self.boton.pack(pady=5)
-
         # Frame para los botones adicionales para Consultar las Notas de Corte y Ponderaciones
         self.frame_botones = ctk.CTkFrame(root)
         self.frame_botones.pack(pady=5, padx=10, fill="x")
@@ -488,12 +488,20 @@ class SimuladorApp:
         self.boton_notas_corte = ctk.CTkButton(self.frame_botones_centro, text="Notas de Corte 2024", command=self.abre_notas_corte,fg_color="#B1B11D", hover_color="#5C5C2E")
         self.boton_notas_corte.pack(side="left",pady=5,padx=10)
         # Botón para Ponderaciones
-        self.boton_ponderaciones = ctk.CTkButton(self.frame_botones_centro, text="Ponderaciones 2024", command=self.abre_ponderaciones,fg_color="#1DB1AC", hover_color="#2E5C5A")
+        self.boton_ponderaciones = ctk.CTkButton(self.frame_botones_centro, text="Ponderaciones 2025", command=self.abre_ponderaciones,fg_color="#1DB1AC", hover_color="#2E5C5A")
         self.boton_ponderaciones.pack(side="left",pady=5,padx=10)
         self.boton_salir = ctk.CTkButton(self.frame_botones_centro, text = "Salir", command=root.destroy,fg_color="#C1194E", hover_color="#6A0E2B")
-        self.boton_salir.pack(side="right",padx=10,pady=5)
+        self.boton_salir.pack(side="left",padx=10,pady=5)
         self.frame_botones_centro.pack()
         
+        # Cargar la imagen
+        self.bg_image = Image.open(os.path.join(os.path.dirname(__file__), 'assets', 'firma.png'))
+        self.bg_image = self.bg_image.resize((120, 20), Image.LANCZOS)  # Ajusta el tamaño según sea necesario
+        self.bg_photo = ImageTk.PhotoImage(self.bg_image)
+
+        # Crear una etiqueta y agregar la imagen
+        self.label_imagen = ctk.CTkLabel(self.frame_botones_centro, image=self.bg_photo,text="",height=20,width=120)
+        self.label_imagen.pack(pady=5, padx=10,side="right",anchor="s")
     
     # Función para validar mientras se escribe la nota de Bachiller
     def valida_nota_bachiller(self,value_if_allowed):
